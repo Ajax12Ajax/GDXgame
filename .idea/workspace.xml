@@ -207,10 +207,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1593973233940" />
-    <state x="633" y="354" width="790" height="984" key="CommitChangelistDialog2" timestamp="1596054066090">
+    <state x="633" y="354" width="790" height="984" key="CommitChangelistDialog2" timestamp="1596054736093">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="633" y="354" width="790" height="984" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596054066090" />
+    <state x="633" y="354" width="790" height="984" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596054736093" />
     <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog" timestamp="1596054034891">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -239,6 +239,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="343" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1596054670850" />
+    <state x="240" y="429" key="Vcs.Push.Dialog.v2" timestamp="1596054767343">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="240" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596054767343" />
     <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596053865365">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
