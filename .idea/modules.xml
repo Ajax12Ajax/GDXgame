@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/android.iml" group="graGDX/android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="graGDX/core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/desktop.iml" group="graGDX/desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/graGDX.iml" filepath="$PROJECT_DIR$/.idea/modules/graGDX.iml" group="graGDX" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios/ios.iml" filepath="$PROJECT_DIR$/.idea/modules/ios/ios.iml" group="graGDX/ios" />
+    </modules>
+  </component>
+</project>
