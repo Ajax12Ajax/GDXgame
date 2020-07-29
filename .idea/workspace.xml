@@ -6,8 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af4aba8-37f5-4fb2-a904-999ee3dd0114" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/android/android.iml" afterDir="false" />
+    <list default="true" id="1af4aba8-37f5-4fb2-a904-999ee3dd0114" name="Default Changelist" comment="graGDX">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1eEwUhSn8kS802YTKa7oHybr7wB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -135,7 +135,40 @@
       <option name="presentableId" value="Default" />
       <updated>1593900077984</updated>
     </task>
+    <task id="LOCAL-00001" summary="graGDX">
+      <created>1596052914371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596052914371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="graGDX" />
+    <option name="LAST_COMMIT_MESSAGE" value="graGDX" />
   </component>
   <component name="WindowStateProjectService">
     <state x="798" y="432" key="#PSD" timestamp="1595443451549">
@@ -150,6 +183,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1593973233940" />
+    <state x="633" y="354" width="790" height="984" key="CommitChangelistDialog2" timestamp="1596053076650">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="633" y="354" width="790" height="984" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596053076650" />
     <state width="2516" height="379" key="GridCell.Tab.0.bottom" timestamp="1595539435370">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -170,5 +207,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="343" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1596052616751" />
+    <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596053160491">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596053160491" />
   </component>
 </project>
