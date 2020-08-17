@@ -9,12 +9,14 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.math.MathUtils;
 
 public class MyGdxGame extends ApplicationAdapter {
 	OrthographicCamera camera;
 	SpriteBatch batch;
 	Texture img;
 	Sprite sprite;
+	float rot = 0;
 	
 	@Override
 	public void create () {
@@ -44,6 +46,12 @@ public class MyGdxGame extends ApplicationAdapter {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.setProjectionMatrix(camera.combined);
 		batch.begin();
+		final float degreesPerSecond = 10.0f;
+		rot = (rot + Gdx.graphics.getDeltaTime() *
+				degreesPerSecond) % 360;
+		final float shakeAmplitudeInDegrees = 0.5f;
+		float shake = MathUtils.sin(rot) * shakeAmplitudeInDegrees;
+		sprite.setRotation(shake);
 		sprite.draw(batch);
 		batch.end();
 	}

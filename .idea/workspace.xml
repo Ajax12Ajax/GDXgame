@@ -21,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/android/android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/MyGdxGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/MyGdxGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
@@ -31,6 +30,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29" />
   <component name="ExternalProjectsData">
@@ -63,7 +69,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -222,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596233981982</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="graGDX | Learning &amp; repair">
+      <created>1597492897222</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597492897222</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -252,7 +265,8 @@
     <MESSAGE value="graGDX" />
     <MESSAGE value="graGDX | Upgrade Android Studio" />
     <MESSAGE value="graGDX | learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="graGDX | learning" />
+    <MESSAGE value="graGDX | Learning &amp; repair" />
+    <option name="LAST_COMMIT_MESSAGE" value="graGDX | Learning &amp; repair" />
   </component>
   <component name="WindowStateProjectService">
     <state x="798" y="432" key="#PSD" timestamp="1595443451549">
@@ -271,18 +285,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1593973233940" />
-    <state x="996" y="351" width="582" height="699" key="#win" timestamp="1596224637135">
+    <state x="996" y="351" width="582" height="699" key="#win" timestamp="1597669743532">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="996" y="351" width="582" height="699" key="#win/0.0.2560.1400@0.0.2560.1400" timestamp="1596224637135" />
+    <state x="996" y="351" width="582" height="699" key="#win/0.0.2560.1400@0.0.2560.1400" timestamp="1597669743532" />
     <state x="1775" y="462" key="AndroidProcessChooserDialog" timestamp="1597412500120">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1775" y="462" key="AndroidProcessChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597412500120" />
-    <state x="450" y="209" width="790" height="984" key="CommitChangelistDialog2" timestamp="1596233981470">
+    <state x="1750" y="282" width="790" height="984" key="CommitChangelistDialog2" timestamp="1597492895256">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="450" y="209" width="790" height="984" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596233981470" />
+    <state x="1750" y="282" width="790" height="984" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1597492895256" />
     <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog" timestamp="1596054034891">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -291,46 +305,50 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1062" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1597263359515" />
-    <state width="987" height="151" key="GridCell.Tab.0.bottom" timestamp="1597436576168">
+    <state width="1080" height="212" key="GridCell.Tab.0.bottom" timestamp="1597674392304">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="987" height="151" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597436576168" />
-    <state width="987" height="151" key="GridCell.Tab.0.center" timestamp="1597436576168">
+    <state width="1080" height="212" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392304" />
+    <state width="1080" height="212" key="GridCell.Tab.0.center" timestamp="1597674392303">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="987" height="151" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597436576168" />
-    <state width="987" height="151" key="GridCell.Tab.0.left" timestamp="1597436576167">
+    <state width="1080" height="212" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392303" />
+    <state width="1080" height="212" key="GridCell.Tab.0.left" timestamp="1597674392302">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="987" height="151" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597436576167" />
-    <state width="987" height="151" key="GridCell.Tab.0.right" timestamp="1597436576168">
+    <state width="1080" height="212" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392302" />
+    <state width="1080" height="212" key="GridCell.Tab.0.right" timestamp="1597674392304">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="987" height="151" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597436576168" />
-    <state width="1233" height="318" key="GridCell.Tab.1.bottom" timestamp="1597428871767">
+    <state width="1080" height="212" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392304" />
+    <state width="1080" height="212" key="GridCell.Tab.1.bottom" timestamp="1597674392307">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1233" height="318" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597428871767" />
-    <state width="1233" height="318" key="GridCell.Tab.1.center" timestamp="1597428871767">
+    <state width="1080" height="212" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392307" />
+    <state width="1080" height="212" key="GridCell.Tab.1.center" timestamp="1597674392306">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1233" height="318" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597428871767" />
-    <state width="1233" height="318" key="GridCell.Tab.1.left" timestamp="1597428871766">
+    <state width="1080" height="212" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392306" />
+    <state width="1080" height="212" key="GridCell.Tab.1.left" timestamp="1597674392305">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1233" height="318" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597428871766" />
-    <state width="1233" height="318" key="GridCell.Tab.1.right" timestamp="1597428871767">
+    <state width="1080" height="212" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392305" />
+    <state width="1080" height="212" key="GridCell.Tab.1.right" timestamp="1597674392307">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1233" height="318" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597428871767" />
-    <state x="627" y="518" key="SettingsEditor" timestamp="1597492483730">
+    <state width="1080" height="212" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392307" />
+    <state x="958" y="607" key="IDE.errors.dialog" timestamp="1597671872510">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="627" y="518" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1597492483730" />
-    <state x="240" y="429" key="Vcs.Push.Dialog.v2" timestamp="1596233990723">
+    <state x="958" y="607" key="IDE.errors.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597671872510" />
+    <state x="1475" y="685" key="SettingsEditor" timestamp="1597671750416">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="240" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596233990723" />
+    <state x="1475" y="685" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1597671750416" />
+    <state x="240" y="429" key="Vcs.Push.Dialog.v2" timestamp="1597492929668">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="240" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1597492929668" />
     <state x="969" y="314" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1597261426919">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
