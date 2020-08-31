@@ -3,62 +3,63 @@ package com.mygdx.gragdx;
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.mygdx.gragdx.game.WorldController;
+import com.mygdx.gragdx.game.WorldRenderer;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.math.MathUtils;
 
 public class MyGdxGame extends ApplicationAdapter {
-	OrthographicCamera camera;
-	SpriteBatch batch;
-	Texture img;
-	Sprite sprite;
-	float rot = 0;
-	
-	@Override
-	public void create () {
-		float w = Gdx.graphics.getWidth();
-		float h = Gdx.graphics.getHeight();
+    private static final String TAG =
+            MyGdxGame.class.getName();
 
-		camera = new OrthographicCamera(1, h/w);
+    private WorldController worldController;
+    private WorldRenderer worldRenderer;
+    private boolean paused;
 
-		Gdx.app.setLogLevel(Application.LOG_DEBUG);
-		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
-		img.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
+    @Override
+    public void create() {
+        // Set Libgdx log level to DEBUG
+        Gdx.app.setLogLevel(Application.LOG_DEBUG);
+        // Initialize controller and renderer
+        worldController = new WorldController();
+        worldRenderer = new WorldRenderer(worldController);
+        // Game world is active on start
+        paused = false;
+    }
 
-		TextureRegion region = new TextureRegion(img, 0, 0, 256, 256);
+    @Override
+    public void render() {
+        // Do not update game world when paused.
+        if (!paused) {
+            // Update game world by the time that has passed
+            // since last rendered frame.
+            worldController.update(Gdx.graphics.getDeltaTime());
+        }
+        // Sets the clear screen color to: Cornflower Blue
+        Gdx.gl.glClearColor(0x64 / 255.0f, 0x95 / 255.0f, 0xed / 255.0f,
+                0xff / 255.0f);
+        // Clears the screen
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        // Render game world to screen
+        worldRenderer.render();
+    }
 
+    @Override
+    public void resize(int width, int height) {
+        worldRenderer.resize(width, height);
+    }
 
-		sprite = new Sprite(region);
-		sprite.setSize(0.5f, 0.5f * sprite.getHeight() / sprite.getWidth());
-		sprite.setOrigin(sprite.getWidth()/2, sprite.getHeight()/2);
-		sprite.setPosition(-sprite.getWidth()/2, -0.19f);
+    @Override
+    public void pause() {
+        paused = true;
+    }
 
-	}
+    @Override
+    public void resume() {
+        paused = false;
+    }
 
-	@Override
-	public void render () {
-		Gdx.gl.glClearColor(0, 1, 1, 1);
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		batch.setProjectionMatrix(camera.combined);
-		batch.begin();
-		final float degreesPerSecond = 10.0f;
-		rot = (rot + Gdx.graphics.getDeltaTime() *
-				degreesPerSecond) % 360;
-		final float shakeAmplitudeInDegrees = 0.5f;
-		float shake = MathUtils.sin(rot) * shakeAmplitudeInDegrees;
-		sprite.setRotation(shake);
-		sprite.draw(batch);
-		batch.end();
-	}
-	
-	@Override
-	public void dispose () {
-		batch.dispose();
-		img.dispose();
-	}
+    @Override
+    public void dispose() {
+        worldRenderer.dispose();
+    }
 }

@@ -6,25 +6,27 @@
                 {
                     "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "475"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
                         "startLines": "4",
                         "startColumns": "4",
-                        "startOffsets": "157",
+                        "startOffsets": "162",
                         "endLines": "11",
                         "endColumns": "12",
-                        "endOffsets": "615"
+                        "endOffsets": "620"
                     }
                 },
                 {
                     "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\values\\color.xml",
                     "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
@@ -37,16 +39,16 @@
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "56",
-                        "endColumns": "45",
-                        "endOffsets": "97"
+                        "startOffsets": "59",
+                        "endColumns": "50",
+                        "endOffsets": "105"
                     },
                     "to": {
                         "startLines": "3",
                         "startColumns": "4",
                         "startOffsets": "111",
-                        "endColumns": "45",
-                        "endOffsets": "152"
+                        "endColumns": "50",
+                        "endOffsets": "157"
                     }
                 }
             ]

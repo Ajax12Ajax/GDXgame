@@ -9,9 +9,95 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af4aba8-37f5-4fb2-a904-999ee3dd0114" name="Default Changelist" comment="">
+    <list default="true" id="1af4aba8-37f5-4fb2-a904-999ee3dd0114" name="Default Changelist" comment="graGDX | Upgrade">
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/android/graGDX.android.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/core/graGDX.core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/desktop/graGDX.desktop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/ios/graGDX.ios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__core_core_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__graGDX_core_core_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__desktop_desktop_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__graGDX_desktop_desktop_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ios_ios_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__graGDX_ios_ios_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/android/android.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/desktop/desktop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ios/ios.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/javac/debug/classes/com/mygdx/gragdx/AndroidLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/javac/debug/classes/com/mygdx/gragdx/AndroidLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/com/mygdx/gragdx/AndroidLauncher.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/com/mygdx/gragdx/AndroidLauncher.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build-attribution/androidGradlePluginAttributionData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/.transforms/a4c046245e3d263fdbfbd220d848ec24/core-1.0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/.transforms/a4c046245e3d263fdbfbd220d848ec24/core-1.0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/MyGdxGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/MyGdxGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,36 +120,75 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$/desktop">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="graGDX" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="graGDX" type="f1a62948:ProjectNode" />
+                <item name="desktop" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="graGDX" type="f1a62948:ProjectNode" />
+                <item name="desktop" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eEwUhSn8kS802YTKa7oHybr7wB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="R58N134HYBH" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-31T13:23:51.352652200Z" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="STRING" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../9781783554775_code (1)/4775OS_Code/4775OS_02_Code" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gra9" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1598787589094" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.win">
+  <component name="RunManager" selected="Android App.graGDX.android">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -71,8 +196,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="android" />
+    <configuration name="graGDX.android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="graGDX.android" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -86,31 +211,8 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
+      <option name="DEBUGGER_TYPE" value="Java" />
       <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
@@ -122,18 +224,21 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="win" type="Application" factoryName="Application" editBeforeRun="true">
+    <configuration name="desktop" type="Application" factoryName="Application" show_console_on_std_err="true" show_console_on_std_out="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../Program Files/Java/jdk1.8.0_181" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.mygdx.gragdx.desktop.DesktopLauncher" />
-      <module name="desktop" />
+      <module name="graGDX.desktop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Android App.android" />
-      <item itemvalue="Application.win" />
+      <item itemvalue="Android App.graGDX.android" />
+      <item itemvalue="Application.desktop" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -229,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597695478357</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="graGDX | Upgrade">
+      <created>1598786062073</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598786062073</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -248,101 +360,134 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="graGDX" />
     <MESSAGE value="graGDX | Upgrade Android Studio" />
     <MESSAGE value="graGDX | learning" />
     <MESSAGE value="graGDX | Learning &amp; repair" />
-    <option name="LAST_COMMIT_MESSAGE" value="graGDX | Learning &amp; repair" />
+    <MESSAGE value="graGDX | Upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="graGDX | Upgrade" />
   </component>
   <component name="WindowStateProjectService">
     <state x="798" y="432" key="#PSD" timestamp="1595443451549">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="798" y="432" key="#PSD/0.0.2560.1400@0.0.2560.1400" timestamp="1595443451549" />
-    <state x="779" y="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597262098954">
+    <state x="723" y="521" key="#Project_Structure" timestamp="1598875660369">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="779" y="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597262098954" />
+    <state x="723" y="521" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1598875660369" />
+    <state x="1348" y="384" width="1089" height="1002" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598879814090">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1348" y="384" width="1089" height="1002" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598879814090" />
     <state x="967" y="400" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1596222006442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="967" y="400" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596222006442" />
-    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593973233940">
+    <state x="1472" y="444" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598878411458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1593973233940" />
+    <state x="1472" y="444" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598878411458" />
+    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598816845392">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598816845392" />
+    <state x="593" y="322" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598885173311">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="593" y="322" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1598885173311" />
     <state x="996" y="351" width="582" height="699" key="#win" timestamp="1597669743532">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="996" y="351" width="582" height="699" key="#win/0.0.2560.1400@0.0.2560.1400" timestamp="1597669743532" />
+    <state x="385" y="663" width="1308" height="605" key="AVDManager" timestamp="1598880142683">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="385" y="663" width="1308" height="605" key="AVDManager/0.0.2560.1400@0.0.2560.1400" timestamp="1598880142683" />
     <state x="1775" y="462" key="AndroidProcessChooserDialog" timestamp="1597412500120">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1775" y="462" key="AndroidProcessChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597412500120" />
-    <state x="492" y="290" width="790" height="984" key="CommitChangelistDialog2" timestamp="1598039446407">
+    <state x="890" y="273" width="790" height="984" key="CommitChangelistDialog2" timestamp="1598786061126">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="492" y="290" width="790" height="984" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1598039446407" />
-    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog" timestamp="1596054034891">
+    <state x="890" y="273" width="790" height="984" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1598786061126" />
+    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog" timestamp="1598877854029">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596054034891" />
-    <state x="1062" y="455" key="FileChooserDialogImpl" timestamp="1597263359515">
+    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598877854029" />
+    <state x="1560" y="489" key="EnvironmentVariablesDialog" timestamp="1598878281097">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1062" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1597263359515" />
-    <state width="1080" height="423" key="GridCell.Tab.0.bottom" timestamp="1598039422153">
+    <state x="1560" y="489" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598878281097" />
+    <state x="1066" y="450" key="FileChooserDialogImpl" timestamp="1598896416528">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1080" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598039422153" />
-    <state width="1080" height="423" key="GridCell.Tab.0.center" timestamp="1598039422152">
+    <state x="1066" y="450" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1598896416528" />
+    <state width="1450" height="223" key="GridCell.Tab.0.bottom" timestamp="1598904613523">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1080" height="423" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598039422152" />
-    <state width="1080" height="423" key="GridCell.Tab.0.left" timestamp="1598039422152">
+    <state width="1450" height="223" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598904613523" />
+    <state width="1450" height="223" key="GridCell.Tab.0.center" timestamp="1598904613522">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1080" height="423" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598039422152" />
-    <state width="1080" height="423" key="GridCell.Tab.0.right" timestamp="1598039422153">
+    <state width="1450" height="223" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598904613522" />
+    <state width="1450" height="223" key="GridCell.Tab.0.left" timestamp="1598904613522">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1080" height="423" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598039422153" />
-    <state width="1080" height="212" key="GridCell.Tab.1.bottom" timestamp="1597674392307">
+    <state width="1450" height="223" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598904613522" />
+    <state width="1450" height="223" key="GridCell.Tab.0.right" timestamp="1598904613523">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1080" height="212" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392307" />
-    <state width="1080" height="212" key="GridCell.Tab.1.center" timestamp="1597674392306">
+    <state width="1450" height="223" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598904613522" />
+    <state width="1450" height="266" key="GridCell.Tab.1.bottom" timestamp="1598829812955">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1080" height="212" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392306" />
-    <state width="1080" height="212" key="GridCell.Tab.1.left" timestamp="1597674392305">
+    <state width="1450" height="266" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598829812955" />
+    <state width="1450" height="266" key="GridCell.Tab.1.center" timestamp="1598829812955">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1080" height="212" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392305" />
-    <state width="1080" height="212" key="GridCell.Tab.1.right" timestamp="1597674392307">
+    <state width="1450" height="266" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598829812955" />
+    <state width="1450" height="266" key="GridCell.Tab.1.left" timestamp="1598829812955">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1080" height="212" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597674392307" />
+    <state width="1450" height="266" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598829812955" />
+    <state width="1450" height="266" key="GridCell.Tab.1.right" timestamp="1598829812955">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1450" height="266" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598829812955" />
     <state x="958" y="607" key="IDE.errors.dialog" timestamp="1598036387594">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="958" y="607" key="IDE.errors.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598036387594" />
-    <state x="1475" y="685" key="SettingsEditor" timestamp="1598036224440">
+    <state x="201" y="350" key="SettingsEditor" timestamp="1598886930308">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1475" y="685" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598036224440" />
-    <state x="240" y="429" key="Vcs.Push.Dialog.v2" timestamp="1598039454537">
+    <state x="201" y="350" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598886930308" />
+    <state x="907" y="345" key="Vcs.Push.Dialog.v2" timestamp="1598786083901">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="240" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1598039454537" />
+    <state x="907" y="345" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1598786083901" />
     <state x="969" y="314" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1597261426919">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

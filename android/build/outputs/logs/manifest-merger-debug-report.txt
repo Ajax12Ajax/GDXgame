@@ -1,60 +1,64 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:3:5-31
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:3:58-84
 		INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml
 		INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:3:11-57
 	android:versionCode
 		INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:5:5-23:19
 	android:label
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:10:13-45
 	android:appCategory
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:9:13-39
+	tools:targetApi
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:12:13-39
 	android:icon
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:7:9-45
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:7:13-49
 	android:allowBackup
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:6:13-39
 	android:theme
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:11:13-44
 	android:isGame
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:8:9-30
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:8:13-34
 activity#com.mygdx.gragdx.AndroidLauncher
-ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:12:9-21:20
+ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:13:9-22:20
 	android:screenOrientation
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:15:13-49
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:16:13-49
 	android:label
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:15:13-45
 	android:configChanges
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:16:13-107
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:17:13-107
 	android:name
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:13:13-60
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:14:13-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:17:13-20:29
+ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml
