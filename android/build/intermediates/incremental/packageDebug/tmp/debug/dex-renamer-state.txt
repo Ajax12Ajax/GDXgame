@@ -1,4 +1,4 @@
-#Mon Aug 31 22:09:37 CEST 2020
+#Tue Sep 01 20:45:59 CEST 2020
 base.0=C\:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

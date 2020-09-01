@@ -23,29 +23,30 @@
 16-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:8:13-34
 17        android:label="@string/app_name"
 17-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:10:13-45
-18        android:theme="@style/GdxTheme" >
-18-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:11:13-44
-19        <activity
-19-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:13:9-22:20
-20            android:name="com.mygdx.gragdx.AndroidLauncher"
-20-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:14:13-60
-21            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout"
-21-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:17:13-107
-22            android:label="@string/app_name"
-22-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:15:13-45
-23            android:screenOrientation="portrait" >
-23-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:16:13-49
-24            <intent-filter>
-24-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:18:13-21:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:19:17-69
-25-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:19:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:20:17-77
-27-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:20:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+18        android:testOnly="true"
+19        android:theme="@style/GdxTheme" >
+19-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:11:13-44
+20        <activity
+20-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:13:9-22:20
+21            android:name="com.mygdx.gragdx.AndroidLauncher"
+21-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:14:13-60
+22            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout"
+22-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:17:13-107
+23            android:label="@string/app_name"
+23-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:15:13-45
+24            android:screenOrientation="portrait" >
+24-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:16:13-49
+25            <intent-filter>
+25-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:18:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:19:17-69
+26-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:19:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:20:17-77
+28-->C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>

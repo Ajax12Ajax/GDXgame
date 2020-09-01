@@ -9,7 +9,7 @@ import com.mygdx.gragdx.util.Constants;
 public class WorldRenderer implements Disposable {
     private OrthographicCamera camera;
     private SpriteBatch batch;
-    private WorldController worldController;
+    private final WorldController worldController;
 
     public WorldRenderer(WorldController worldController) {
         this.worldController = worldController;
@@ -25,13 +25,15 @@ public class WorldRenderer implements Disposable {
     }
 
     public void render() {
+
         renderTestObjects();
     }
 
     private void renderTestObjects() {
+        worldController.cameraHelper.applyTo(camera);
         batch.setProjectionMatrix(camera.combined);
         batch.begin();
-        for(Sprite sprite : worldController.testSprites) {
+        for (Sprite sprite : worldController.testSprites) {
             sprite.draw(batch);
         }
         batch.end();
