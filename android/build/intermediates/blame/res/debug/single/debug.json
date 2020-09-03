@@ -1,30 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icontest.png.flat",
+        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\mipmap-hdpi\\icontest.png"
     },
     {
-        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icontest.png.flat",
+        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\mipmap-xxxhdpi\\icontest.png"
     },
     {
-        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\drawable-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icontest.png.flat",
+        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\mipmap-mdpi\\icontest.png"
     },
     {
-        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\drawable-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icontest.png.flat",
+        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\mipmap-xhdpi\\icontest.png"
     },
     {
-        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\drawable-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v26_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\drawable-anydpi-v26\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icontest.png.flat",
+        "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\mipmap-xxhdpi\\icontest.png"
     }
 ]

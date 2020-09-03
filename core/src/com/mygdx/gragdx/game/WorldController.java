@@ -57,7 +57,7 @@ public class WorldController extends InputAdapter {
 
     private void initTestObjects() {
         // Create new array for 5 sprites
-        testSprites = new Sprite[5];
+        testSprites = new Sprite[2];
         // Create empty POT-sized Pixmap with 8 bit RGBA pixel data
         int width = 32;
         int height = 32;
@@ -102,7 +102,6 @@ public class WorldController extends InputAdapter {
 
     public void update(float deltaTime) {
         handleDebugInput(deltaTime);
-        updateTestObjects(deltaTime);
         cameraHelper.update(deltaTime);
     }
 
@@ -120,6 +119,10 @@ public class WorldController extends InputAdapter {
         if (Gdx.input.isKeyPressed(Input.Keys.S)) moveSelectedSprite(0,
                 -sprMoveSpeed);
 
+
+//---------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------
+
         // Camera Controls (move)
         float camMoveSpeed = 5 * deltaTime;
         float camMoveSpeedAccelerationFactor = 5;
@@ -135,6 +138,8 @@ public class WorldController extends InputAdapter {
         if (Gdx.input.isKeyPressed(Input.Keys.BACKSPACE))
             cameraHelper.setPosition(0, 0);
 
+
+
         // Camera Controls (zoom)
         float camZoomSpeed = 1 * deltaTime;
         float camZoomSpeedAccelerationFactor = 5;
@@ -145,6 +150,9 @@ public class WorldController extends InputAdapter {
         if (Gdx.input.isKeyPressed(Input.Keys.PERIOD)) cameraHelper.addZoom(
                 -camZoomSpeed);
         if (Gdx.input.isKeyPressed(Input.Keys.SLASH)) cameraHelper.setZoom(1);
+
+//---------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------
     }
 
     private void moveCamera (float x, float y) {
@@ -156,19 +164,5 @@ public class WorldController extends InputAdapter {
 
     private void moveSelectedSprite(float x, float y) {
         testSprites[selectedSprite].translate(x, y);
-    }
-
-    private void updateTestObjects(float deltaTime) {
-        // Get current rotation from selected sprite
-        float rotation = testSprites[selectedSprite].getRotation();
-
-        // Rotate sprite by 90 degrees per second
-        rotation += 10 * deltaTime;
-
-        // Wrap around at 360 degrees
-        rotation %= 360;
-
-        // Set new rotation value to selected sprite
-        testSprites[selectedSprite].setRotation(rotation);
     }
 }
