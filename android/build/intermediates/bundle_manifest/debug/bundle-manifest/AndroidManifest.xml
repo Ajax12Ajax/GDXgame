@@ -12,6 +12,7 @@
         android:allowBackup="true"
         android:appCategory="game"
         android:debuggable="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/icontest"
         android:isGame="true"
         android:label="@string/app_name"
