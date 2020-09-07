@@ -135,7 +135,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\janst\Documents\libGDXproject\graGDX\android\res\drawable-xxhdpi\iconand.png" />
+                                                <entry key="imagePath" value="C:\Users\janst\Documents\libGDXproject\graGDX\android\res\ic_launcher4.png" />
                                                 <entry key="paddingPercent" value="-5" />
                                               </map>
                                             </option>
@@ -169,8 +169,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="backgroundColor" value="b9d4d4" />
-                                      <entry key="imageAsset" value="C:\Users\janst\Documents\libGDXproject\graGDX\android\res\drawable-xxhdpi\iconand.png" />
+                                      <entry key="backgroundColor" value="badae3" />
+                                      <entry key="imageAsset" value="C:\Users\janst\Documents\libGDXproject\graGDX\android\res\ic_launcher4.png" />
                                       <entry key="outputName" value="icontest" />
                                     </map>
                                   </option>
