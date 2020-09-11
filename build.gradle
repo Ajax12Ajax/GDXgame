@@ -52,6 +52,7 @@ project(":desktop") {
         api "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
         
     }
+
 }
 
 project(":android") {

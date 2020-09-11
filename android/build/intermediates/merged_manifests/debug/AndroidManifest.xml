@@ -16,7 +16,6 @@
         android:icon="@mipmap/icontest"
         android:isGame="true"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@style/GdxTheme" >
         <activity
             android:name="com.mygdx.gragdx.AndroidLauncher"

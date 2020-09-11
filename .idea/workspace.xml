@@ -43,26 +43,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/android/graGDX.android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/android/graGDX.android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/app_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/app_classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-hdpi_icontest.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-hdpi_icontest.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-mdpi_icontest.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-mdpi_icontest.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-xhdpi_icontest.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-xhdpi_icontest.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-xxhdpi_icontest.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-xxhdpi_icontest.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icontest.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icontest.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-xxxhdpi/ic_launcher1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/mipmap-hdpi/icontest.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/mipmap-hdpi/icontest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/mipmap-mdpi/icontest.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/mipmap-mdpi/icontest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/mipmap-xhdpi/icontest.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/mipmap-xhdpi/icontest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/mipmap-xxhdpi/icontest.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/mipmap-xxhdpi/icontest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/mipmap-xxxhdpi/icontest.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/mipmap-xxxhdpi/icontest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,19 +133,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/desktop" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gra9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GDXgame" />
     <property name="memory.settings.postsync.last.time.stamp" value="1598787589094" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\desktop\build\libs" />
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.graGDX.android">
+  <component name="RunManager" selected="JAR Application.gdx-tools.jar">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -195,10 +191,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gdx-tools.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/desktop/build/libs/gdx-tools.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="graGDX.desktop" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Android App.graGDX.android" />
       <item itemvalue="Application.desktop" />
+      <item itemvalue="JAR Application.gdx-tools.jar" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.gdx-tools.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -359,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599336852537</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="graGDX | Learning">
+      <created>1599509969305</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599509969305</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -415,10 +430,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="723" y="521" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1598875660369" />
-    <state x="1348" y="384" width="1089" height="1002" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598879814090">
+    <state x="1348" y="302" width="1089" height="1098" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599859317187">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1348" y="384" width="1089" height="1002" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598879814090" />
+    <state x="1348" y="302" width="1089" height="1098" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599859317187" />
     <state x="967" y="400" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1596222006442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -427,10 +442,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1472" y="444" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598878411458" />
-    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598816845392">
+    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599846836417">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598816845392" />
+    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599846836417" />
     <state x="593" y="322" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598885173311">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -463,26 +478,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1560" y="489" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598878281097" />
-    <state x="1066" y="450" key="FileChooserDialogImpl" timestamp="1599423822157">
+    <state x="1066" y="450" key="FileChooserDialogImpl" timestamp="1599851380361">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1066" y="450" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599423822157" />
-    <state width="2517" height="242" key="GridCell.Tab.0.bottom" timestamp="1599165240761">
+    <state x="1066" y="450" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599851380361" />
+    <state width="2517" height="240" key="GridCell.Tab.0.bottom" timestamp="1599851451992">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="242" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599165240761" />
-    <state width="2517" height="242" key="GridCell.Tab.0.center" timestamp="1599165240761">
+    <state width="2517" height="240" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599851451992" />
+    <state width="2517" height="240" key="GridCell.Tab.0.center" timestamp="1599851451992">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="242" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599165240761" />
-    <state width="2517" height="242" key="GridCell.Tab.0.left" timestamp="1599165240761">
+    <state width="2517" height="240" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599851451992" />
+    <state width="2517" height="240" key="GridCell.Tab.0.left" timestamp="1599851451992">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="242" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599165240761" />
-    <state width="2517" height="242" key="GridCell.Tab.0.right" timestamp="1599165240761">
+    <state width="2517" height="240" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599851451992" />
+    <state width="2517" height="240" key="GridCell.Tab.0.right" timestamp="1599851451992">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="242" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599165240761" />
+    <state width="2517" height="240" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599851451992" />
     <state width="616" height="257" key="GridCell.Tab.1.bottom" timestamp="1598991660797">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -503,26 +518,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="958" y="607" key="IDE.errors.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598036387594" />
-    <state x="201" y="350" key="SettingsEditor" timestamp="1598886930308">
+    <state x="201" y="350" key="SettingsEditor" timestamp="1599851366129">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="201" y="350" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598886930308" />
-    <state x="907" y="345" key="Vcs.Push.Dialog.v2" timestamp="1599336913481">
+    <state x="201" y="350" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1599851366129" />
+    <state x="907" y="345" key="Vcs.Push.Dialog.v2" timestamp="1599509979311">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="907" y="345" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599336913481" />
+    <state x="907" y="345" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599509979311" />
     <state x="969" y="314" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1597261426919">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="969" y="314" key="com.intellij.javaee.MapExternalResourceDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597261426919" />
-    <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599508903775">
+    <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599846711970">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599508903775" />
+    <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599846711970" />
     <state x="0" y="0" width="1464" height="567" key="dock-window-1" timestamp="1598906287279">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="0" y="0" width="1464" height="567" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1598906287279" />
+    <state x="987" y="300" width="587" height="801" key="find.popup" timestamp="1599850061173">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="987" y="300" width="587" height="801" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1599850061173" />
     <state x="1575" y="828" key="git4idea.merge.GitPullDialog" timestamp="1598036302341">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
