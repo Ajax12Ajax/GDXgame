@@ -4,7 +4,6 @@ import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.InputAdapter;
-import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.MathUtils;
@@ -58,12 +57,8 @@ public class WorldController extends InputAdapter {
     private void initTestObjects() {
         // Create new array for 5 sprites
         testSprites = new Sprite[2];
-        // Create empty POT-sized Pixmap with 8 bit RGBA pixel data
-        int width = 32;
-        int height = 32;
-        Pixmap pixmap = createProceduralPixmap(width, height);
-        // Create a new texture from pixmap data
-        Texture texture = new Texture(pixmap);
+        Texture texture = new
+                Texture(Gdx.files.internal("test.png"));
         // Create new sprites using the just created texture
         for (int i = 0; i < testSprites.length; i++) {
             Sprite spr = new Sprite(texture);
@@ -80,24 +75,6 @@ public class WorldController extends InputAdapter {
         }
         // Set first sprite as selected one
         selectedSprite = 0;
-    }
-
-    private Pixmap createProceduralPixmap(int width, int height) {
-        Pixmap pixmap = new Pixmap(width, height, Pixmap.Format.RGBA8888);
-
-        // Fill square with red color at 50% opacity
-        pixmap.setColor(1, 0, 0, 0.5f);
-        pixmap.fill();
-
-        // Draw a yellow-colored X shape on square
-        pixmap.setColor(1, 1, 0, 1);
-        pixmap.drawLine(0, 0, width, height);
-        pixmap.drawLine(width, 0, 0, height);
-
-        // Draw a cyan-colored border around square
-        pixmap.setColor(0, 1, 1, 1);
-        pixmap.drawRectangle(0, 0, width, height);
-        return pixmap;
     }
 
     public void update(float deltaTime) {
