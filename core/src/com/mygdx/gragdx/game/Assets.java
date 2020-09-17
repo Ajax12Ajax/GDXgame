@@ -8,6 +8,8 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.utils.Disposable;
 import com.mygdx.gragdx.util.Constants;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.Texture.TextureFilter;
 
 
 public class Assets implements Disposable, AssetErrorListener {
@@ -15,6 +17,11 @@ public class Assets implements Disposable, AssetErrorListener {
     static final String TAG = Assets.class.getName();
     public static final Assets instance = new Assets();
     private AssetManager assetManager;
+
+    public AssetTest test;
+    public AssetRock rock;
+    public Assetpoint point;
+ // public AssetLevelDecoration levelDecoration;
 
 
     // singleton: prevent instantiation from other classes
@@ -45,6 +52,25 @@ public class Assets implements Disposable, AssetErrorListener {
         }
     }
 
+
+ //   public class AssetLevelDecoration {
+ //       public final AtlasRegion cloud01;
+ //       public final AtlasRegion cloud02;
+ //       public final AtlasRegion cloud03;
+ //       public final AtlasRegion mountainLeft;
+ //       public final AtlasRegion mountainRight;
+ //       public final AtlasRegion waterOverlay;
+ //
+ //       public AssetLevelDecoration(TextureAtlas atlas) {
+ //           cloud01 = atlas.findRegion("cloud01");
+ //           cloud02 = atlas.findRegion("cloud02");
+ //           cloud03 = atlas.findRegion("cloud03");
+ //           mountainLeft = atlas.findRegion("mountain_left");
+ //           mountainRight = atlas.findRegion("mountain_right");
+ //           waterOverlay = atlas.findRegion("water_overlay");
+ //       }
+ //   }
+
     public void init(AssetManager assetManager) {
         this.assetManager = assetManager;
         // set asset manager error handler
@@ -54,10 +80,24 @@ public class Assets implements Disposable, AssetErrorListener {
                 TextureAtlas.class);
         // start loading assets and wait until finished
         assetManager.finishLoading();
+
         Gdx.app.debug(TAG, "# of assets loaded: "
                 + assetManager.getAssetNames().size);
         for (String a : assetManager.getAssetNames())
             Gdx.app.debug(TAG, "asset: " + a);
+
+        TextureAtlas atlas = assetManager.get(Constants.TEXTURE_ATLAS_OBJECTS);
+
+        // enable texture filtering for pixel smoothing
+        for (Texture t : atlas.getTextures()) {
+            t.setFilter(TextureFilter.Linear, TextureFilter.Linear);
+        }
+
+        // create game resource objects
+        test = new AssetTest(atlas);
+        rock = new AssetRock(atlas);
+        point = new Assetpoint(atlas);
+        //levelDecoration = new AssetLevelDecoration(atlas)
     }
 
     @Override
