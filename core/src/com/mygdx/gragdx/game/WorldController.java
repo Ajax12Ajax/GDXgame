@@ -4,9 +4,10 @@ import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.InputAdapter;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.utils.Array;
 import com.mygdx.gragdx.util.CameraHelper;
 
 public class WorldController extends InputAdapter {
@@ -57,13 +58,16 @@ public class WorldController extends InputAdapter {
     private void initTestObjects() {
         // Create new array for 5 sprites
         testSprites = new Sprite[2];
-        Texture texture = new
-                Texture(Gdx.files.internal("test.png"));
-        // Create new sprites using the just created texture
+        Array<TextureRegion> regions = new Array<TextureRegion>();
+        regions.add(Assets.instance.test.head);
+        regions.add(Assets.instance.point.pointa);
+// Create new sprites using a random texture region
+        // Create new sprites using the just created
+
         for (int i = 0; i < testSprites.length; i++) {
-            Sprite spr = new Sprite(texture);
+            Sprite spr = new Sprite(regions.random());
             // Define sprite size to be 1m x 1m in game world
-            spr.setSize(1, 1);
+            spr.setSize(2, 2);
             // Set origin to sprite's center
             spr.setOrigin(spr.getWidth() / 2.0f, spr.getHeight() / 2.0f);
             // Calculate random position for sprite

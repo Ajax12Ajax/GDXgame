@@ -6,19 +6,24 @@ import com.badlogic.gdx.Gdx;
 import com.mygdx.gragdx.game.WorldController;
 import com.mygdx.gragdx.game.WorldRenderer;
 import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.assets.AssetManager;
+import com.mygdx.gragdx.game.Assets;
+
 
 public class MyGdxGame extends ApplicationAdapter {
-    private static final String TAG =
-            MyGdxGame.class.getName();
+    private static final String TAG = MyGdxGame.class.getName();
 
     private WorldController worldController;
     private WorldRenderer worldRenderer;
+
     private boolean paused;
 
     @Override
     public void create() {
         // Set Libgdx log level to DEBUG
         Gdx.app.setLogLevel(Application.LOG_DEBUG);
+        // Load assets
+        Assets.instance.init(new AssetManager());
         // Initialize controller and renderer
         worldController = new WorldController();
         worldRenderer = new WorldRenderer(worldController);
@@ -55,11 +60,13 @@ public class MyGdxGame extends ApplicationAdapter {
 
     @Override
     public void resume() {
+        Assets.instance.init(new AssetManager());
         paused = false;
     }
 
     @Override
     public void dispose() {
         worldRenderer.dispose();
+        Assets.instance.dispose();
     }
 }
