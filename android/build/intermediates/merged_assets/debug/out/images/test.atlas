@@ -1,27 +1,62 @@
 
 test.png
-size: 64,64
+size: 2048,512
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
 LUDZIK TEST
   rotate: false
-  xy: 26, 28
-  size: 22, 34
-  orig: 22, 34
+  xy: 1138, 150
+  size: 88, 136
+  orig: 88, 136
+  offset: 0, 0
+  index: -1
+chmura2
+  rotate: false
+  xy: 1138, 288
+  size: 176, 82
+  orig: 176, 82
+  offset: 0, 0
+  index: -1
+chmury1
+  rotate: false
+  xy: 1138, 372
+  size: 182, 82
+  orig: 182, 82
+  offset: 0, 0
+  index: -1
+gury1
+  rotate: false
+  xy: 2, 229
+  size: 1000, 225
+  orig: 1000, 225
+  offset: 0, 0
+  index: -1
+gury2
+  rotate: false
+  xy: 2, 2
+  size: 1000, 225
+  orig: 1000, 225
   offset: 0, 0
   index: -1
 rock
   rotate: false
-  xy: 2, 2
-  size: 22, 60
-  orig: 22, 60
+  xy: 1004, 94
+  size: 132, 360
+  orig: 132, 360
   offset: 0, 0
   index: -1
 test kulko
   rotate: false
-  xy: 26, 4
-  size: 22, 22
-  orig: 22, 22
+  xy: 1004, 4
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+woda
+  rotate: false
+  xy: 1228, 126
+  size: 32, 160
+  orig: 32, 160
   offset: 0, 0
   index: -1
