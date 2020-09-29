@@ -5,11 +5,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Array;
-import com.mygdx.gragdx.game.objects.AbstractGameObject;
-import com.mygdx.gragdx.game.objects.Clouds;
-import com.mygdx.gragdx.game.objects.Mountains;
-import com.mygdx.gragdx.game.objects.Rock;
-import com.mygdx.gragdx.game.objects.WaterOverlay;
+import com.mygdx.gragdx.game.objects.*;
 
 public class Level {
 
@@ -19,39 +15,45 @@ public class Level {
         EMPTY(0, 0, 0), // black
         ROCK(0, 255, 0), // green
         PLAYER_SPAWNPOINT(255, 255, 255), // white
-        ITEM_FEATHER(255, 0, 255), // purple
-        ITEM_GOLD_COIN(255, 255, 0); // yellow
+        ITEM_POINT(255, 255, 0); // yellow
 
         private int color;
 
-        private BLOCK_TYPE (int r, int g, int b) {
+        private BLOCK_TYPE(int r, int g, int b) {
             color = r << 24 | g << 16 | b << 8 | 0xff;
         }
 
-        public boolean sameColor (int color) {
+        public boolean sameColor(int color) {
             return this.color == color;
         }
 
-        public int getColor () {
+        public int getColor() {
             return color;
         }
     }
 
+    public Test test;
+
     // objects
     public Array<Rock> rocks;
+    public Array<Point> points;
 
     // decoration
     public Clouds clouds;
     public Mountains mountains;
     public WaterOverlay waterOverlay;
 
-    public Level (String filename) {
+    public Level(String filename) {
         init(filename);
     }
 
-    private void init (String filename) {
+    private void init(String filename) {
+        // player character
+        test = null;
+
         // objects
         rocks = new Array<Rock>();
+        points = new Array<Point>();
 
         // load image file that represents the level data
         Pixmap pixmap = new Pixmap(Gdx.files.internal(filename));
@@ -80,19 +82,26 @@ public class Level {
                         float heightIncreaseFactor = 0.25f;
                         offsetHeight = -2.5f;
                         obj.position.set(pixelX, baseHeight * obj.dimension.y * heightIncreaseFactor + offsetHeight);
-                        rocks.add((Rock)obj);
+                        rocks.add((Rock) obj);
                     } else {
                         rocks.get(rocks.size - 1).increaseLength(1);
                     }
                 }
                 // player spawn point
                 else if (BLOCK_TYPE.PLAYER_SPAWNPOINT.sameColor(currentPixel)) {
-                }
-                // feather
-                else if (BLOCK_TYPE.ITEM_FEATHER.sameColor(currentPixel)) {
+                    obj = new Test();
+                    offsetHeight = -3.0f;
+                    obj.position.set(pixelX, baseHeight * obj.dimension.y +
+                            offsetHeight);
+                    test = (Test)obj;
                 }
                 // gold coin
-                else if (BLOCK_TYPE.ITEM_GOLD_COIN.sameColor(currentPixel)) {
+                else if (BLOCK_TYPE.ITEM_POINT.sameColor(currentPixel)) {
+                    obj = new Point();
+                    offsetHeight = -1.5f;
+                    obj.position.set(pixelX, baseHeight * obj.dimension.y
+                            + offsetHeight);
+                    points.add((Point) obj);
                 }
                 // unknown object/pixel color
                 else {
@@ -124,7 +133,19 @@ public class Level {
         Gdx.app.debug(TAG, "level '" + filename + "' loaded");
     }
 
-    public void render (SpriteBatch batch) {
+    public void update (float deltaTime) {
+        test.update(deltaTime);
+
+        for (Rock rock : rocks)
+            rock.update(deltaTime);
+
+        for (Point goldCoin : points)
+            goldCoin.update(deltaTime);
+
+        clouds.update(deltaTime);
+    }
+
+    public void render(SpriteBatch batch) {
         // Draw Mountains
         mountains.render(batch);
 
@@ -132,11 +153,17 @@ public class Level {
         for (Rock rock : rocks)
             rock.render(batch);
 
+        // Draw Gold Coins
+        for (Point goldCoin : points)
+            goldCoin.render(batch);
+
+        // Draw Player Character
+        test.render(batch);
+
         // Draw Water Overlay
         waterOverlay.render(batch);
 
         // Draw Clouds
         clouds.render(batch);
     }
-
 }

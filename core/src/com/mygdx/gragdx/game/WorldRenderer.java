@@ -94,6 +94,17 @@ public class WorldRenderer implements Disposable {
         fpsFont.setColor(1, 1, 1, 1); // white
     }
 
+    private void renderGuiGameOverMessage (SpriteBatch batch) {
+        float x = cameraGUI.viewportWidth / 2;
+        float y = cameraGUI.viewportHeight / 2;
+        if (worldController.isGameOver()) {
+            BitmapFont fontGameOver = Assets.instance.fonts.defaultBig;
+            fontGameOver.setColor(1, 0.75f, 0.25f, 1);
+            fontGameOver.draw(batch, "GAME OVER", x, y);
+            fontGameOver.setColor(1, 1, 1, 1);
+        }
+    }
+
     public void resize(int width, int height) {
         camera.viewportWidth = (Constants.VIEWPORT_HEIGHT / height) * width;
         camera.update();
