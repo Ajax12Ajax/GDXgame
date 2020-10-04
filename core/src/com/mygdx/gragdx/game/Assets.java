@@ -36,15 +36,15 @@ public class Assets implements Disposable, AssetErrorListener {
         public final BitmapFont defaultNormal;
         public final BitmapFont defaultBig;
 
-        public AssetFonts () {
+        public AssetFonts() {
             // create three fonts using Libgdx's 15px bitmap font
             defaultSmall = new BitmapFont(Gdx.files.internal("images/arial-15.fnt"), true);
             defaultNormal = new BitmapFont(Gdx.files.internal("images/arial-15.fnt"), true);
             defaultBig = new BitmapFont(Gdx.files.internal("images/arial-15.fnt"), true);
             // set font sizes
-            defaultSmall.getData().setScale(.75f,.75f);
-            defaultNormal.getData().setScale(1f,1f);
-            defaultBig.getData().setScale(2f,2f);
+            defaultSmall.getData().setScale(.75f, .75f);
+            defaultNormal.getData().setScale(1f, 1f);
+            defaultBig.getData().setScale(2f, 2f);
             // enable linear texture filtering for smooth fonts
             defaultSmall.getRegion().getTexture().setFilter(TextureFilter.Linear, TextureFilter.Linear);
             defaultNormal.getRegion().getTexture().setFilter(TextureFilter.Linear, TextureFilter.Linear);
@@ -56,17 +56,16 @@ public class Assets implements Disposable, AssetErrorListener {
     public class AssetTest {
         public final AtlasRegion head;
 
-        public AssetTest(TextureAtlas atlas) { head = atlas.findRegion("LUDZIK TEST");
+        public AssetTest(TextureAtlas atlas) {
+            head = atlas.findRegion("LUDZIK TEST");
         }
     }
 
     public class AssetRock {
         public final AtlasRegion middle;
-        public final AtlasRegion edge;
 
         public AssetRock(TextureAtlas atlas) {
             middle = atlas.findRegion("rock");
-            edge = atlas.findRegion("rock");
 
         }
     }
@@ -79,24 +78,23 @@ public class Assets implements Disposable, AssetErrorListener {
         }
     }
 
-       public class AssetLevelDecoration {
-           public final AtlasRegion cloud01;
-           public final AtlasRegion cloud02;
-           public final AtlasRegion cloud03;
-           public final AtlasRegion mountainLeft;
-           public final AtlasRegion mountainRight;
-           public final AtlasRegion waterOverlay;
+    public class AssetLevelDecoration {
+        public final AtlasRegion cloud01;
+        public final AtlasRegion cloud02;
+        public final AtlasRegion cloud03;
+        public final AtlasRegion mountainLeft;
+        public final AtlasRegion mountainRight;
+        public final AtlasRegion waterOverlay;
 
-           public AssetLevelDecoration(TextureAtlas atlas) {
-               cloud01 = atlas.findRegion("chmura2");
-               cloud02 = atlas.findRegion("chmury1");
-               cloud03 = atlas.findRegion("chmura2");
-               mountainLeft = atlas.findRegion("gury1");
-               mountainRight = atlas.findRegion("gury2");
-               waterOverlay = atlas.findRegion("woda");
-           }
-       }
-
+        public AssetLevelDecoration(TextureAtlas atlas) {
+            cloud01 = atlas.findRegion("chmura2");
+            cloud02 = atlas.findRegion("chmury1");
+            cloud03 = atlas.findRegion("chmura2");
+            mountainLeft = atlas.findRegion("gury1");
+            mountainRight = atlas.findRegion("gury2");
+            waterOverlay = atlas.findRegion("woda");
+        }
+    }
 
 
     public void init(AssetManager assetManager) {
@@ -127,7 +125,6 @@ public class Assets implements Disposable, AssetErrorListener {
         point = new Assetpoint(atlas);
         levelDecoration = new AssetLevelDecoration(atlas);
     }
-
 
 
     @Override

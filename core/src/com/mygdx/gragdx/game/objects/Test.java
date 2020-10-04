@@ -3,7 +3,6 @@ package com.mygdx.gragdx.game.objects;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.mygdx.gragdx.game.Assets;
-import com.mygdx.gragdx.util.Constants;
 
 public class Test extends AbstractGameObject {
 
@@ -26,54 +25,39 @@ public class Test extends AbstractGameObject {
     public float timeJumping;
     public JUMP_STATE jumpState;
 
-    public boolean hasFeatherPowerup;
-    public float timeLeftFeatherPowerup;
-
     public Test() {
         init();
     }
 
 
-
     public void init() {
-        dimension.set(1, 1);
+        dimension.set(0.7f, 1);
         regHead = Assets.instance.test.head;
         // Center image on game object
         origin.set(dimension.x / 2, dimension.y / 2);
         // Bounding box for collision detection
         bounds.set(0, 0, dimension.x, dimension.y);
         // Set physics values
-        terminalVelocity.set(3.0f, 4.0f);
-        friction.set(12.0f, 0.0f);
+        terminalVelocity.set(5.5f, 4.0f);
+        friction.set(22.0f, 0.0f);
         acceleration.set(0.0f, -25.0f);
         // View direction
         viewDirection = VIEW_DIRECTION.RIGHT;
         // Jump state
         jumpState = JUMP_STATE.FALLING;
         timeJumping = 0;
-        // Power-ups
-        hasFeatherPowerup = false;
-        timeLeftFeatherPowerup = 0;
     }
-    
+
     public void render(float deltaTime) {
         super.update(deltaTime);
         if (velocity.x != 0) {
             viewDirection = velocity.x < 0 ? VIEW_DIRECTION.LEFT :
                     VIEW_DIRECTION.RIGHT;
         }
-        if (timeLeftFeatherPowerup > 0) {
-            timeLeftFeatherPowerup -= deltaTime;
-            if (timeLeftFeatherPowerup < 0) {
-                // disable power-up
-                timeLeftFeatherPowerup = 0;
-                setFeatherPowerup(false);
-            }
-        }
     }
 
     @Override
-    protected void updateMotionY (float deltaTime) {
+    protected void updateMotionY(float deltaTime) {
         switch (jumpState) {
             case GROUNDED:
                 jumpState = JUMP_STATE.FALLING;
@@ -103,12 +87,8 @@ public class Test extends AbstractGameObject {
     }
 
     @Override
-    public void render (SpriteBatch batch) {
+    public void render(SpriteBatch batch) {
         TextureRegion reg = null;
-        // Set special color when game object has a feather power-up
-        if (hasFeatherPowerup) {
-            batch.setColor(1.0f, 0.8f, 0.0f, 1.0f);
-        }
         // Draw image
         reg = regHead;
         batch.draw(reg.getTexture(), position.x, position.y, origin.x,
@@ -135,29 +115,7 @@ public class Test extends AbstractGameObject {
                 break;
             case FALLING:// Falling down
             case JUMP_FALLING: // Falling down after jump
-                if (jumpKeyPressed && hasFeatherPowerup) {
-                    timeJumping = JUMP_TIME_OFFSET_FLYING;
-                    jumpState = JUMP_STATE.JUMP_RISING;
-                }
                 break;
         }
     }
-
-    ;
-
-    public void setFeatherPowerup(boolean pickedUp) {
-        hasFeatherPowerup = pickedUp;
-        if (pickedUp) {
-            timeLeftFeatherPowerup =
-                    Constants.ITEM_FEATHER_POWERUP_DURATION;
-        }
-    }
-
-    ;
-
-    public boolean hasFeatherPowerup() {
-        return hasFeatherPowerup && timeLeftFeatherPowerup > 0;
-    }
-
-    ;
 }

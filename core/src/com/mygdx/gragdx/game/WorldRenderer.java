@@ -54,22 +54,24 @@ public class WorldRenderer implements Disposable {
         renderGuiExtraLive(batch);
         // draw FPS text (anchored to bottom right edge)
         renderGuiFpsCounter(batch);
+        // draw game over text
+        renderGuiGameOverMessage(batch);
 
         batch.end();
     }
 
     private void renderGuiScore (SpriteBatch batch) {
         float x = -15;
-        float y = -15;
-        batch.draw(Assets.instance.point.pointa, x, y, 50, 50, 100, 100, 0.35f, -0.35f, 0);
-        Assets.instance.fonts.defaultBig.draw(batch, "" + worldController.score, x + 75, y + 37);    }
+        float y = -25;
+        batch.draw(Assets.instance.point.pointa, x, y, 50, 50, 80, 80, 0.35f, -0.35f, 0);
+        Assets.instance.fonts.defaultBig.draw(batch, "" + worldController.score, x + 75, y + 42);    }
 
     private void renderGuiExtraLive (SpriteBatch batch) {
-        float x = cameraGUI.viewportWidth - 50 - Constants.LIVES_START * 50;
+        float x = cameraGUI.viewportWidth - 20 - Constants.LIVES_START * 50;
         float y = -15;
         for (int i = 0; i < Constants.LIVES_START; i++) {
             if (worldController.lives <= i) batch.setColor(0.5f, 0.5f, 0.5f, 0.5f);
-            batch.draw(Assets.instance.test.head, x + i * 50, y, 50, 50, 120, 100, 0.35f, -0.35f, 0);
+            batch.draw(Assets.instance.test.head, x + i * 40, y, 50, 50, 70, 100, 0.35f, -0.35f, 0);
             batch.setColor(1, 1, 1, 1);
         }
     }
@@ -99,8 +101,8 @@ public class WorldRenderer implements Disposable {
         float y = cameraGUI.viewportHeight / 2;
         if (worldController.isGameOver()) {
             BitmapFont fontGameOver = Assets.instance.fonts.defaultBig;
-            fontGameOver.setColor(1, 0.75f, 0.25f, 1);
-            fontGameOver.draw(batch, "GAME OVER", x, y);
+            fontGameOver.setColor(1, 0, 0, 1);
+            fontGameOver.draw(batch, "GAME OVER", x / 1, y / 1);
             fontGameOver.setColor(1, 1, 1, 1);
         }
     }

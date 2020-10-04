@@ -65,10 +65,11 @@ public class WorldController extends InputAdapter {
 
     private float timeLeftGameOverDelay;
 
-    public boolean isGameOver () {
-        return lives < 0;
+    public boolean isGameOver() {
+        return lives <= 0;
     }
-    public boolean isPlayerInWater () {
+
+    public boolean isPlayerInWater() {
         return level.test.position.y < -5;
     }
 
@@ -136,15 +137,15 @@ public class WorldController extends InputAdapter {
     private void handleDebugInput(float deltaTime) {
         if (Gdx.app.getType() != Application.ApplicationType.Desktop) return;
 
-           //// Camera Controls (move)
-           //float camMoveSpeed = 5 * deltaTime;
-           //float camMoveSpeedAccelerationFactor = 5;
-           //if (Gdx.input.isKeyPressed(Input.Keys.SHIFT_LEFT)) camMoveSpeed *= camMoveSpeedAccelerationFactor;
-           //if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) moveCamera(camMoveSpeed, 0);
-           //if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) moveCamera(-camMoveSpeed, 0);
-           //if (Gdx.input.isKeyPressed(Input.Keys.UP)) moveCamera(0, -camMoveSpeed);
-           //if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) moveCamera(0, camMoveSpeed);
-           //if (Gdx.input.isKeyPressed(Input.Keys.BACKSPACE)) cameraHelper.setPosition(0, 0);
+        //// Camera Controls (move)
+        //float camMoveSpeed = 5 * deltaTime;
+        //float camMoveSpeedAccelerationFactor = 5;
+        //if (Gdx.input.isKeyPressed(Input.Keys.SHIFT_LEFT)) camMoveSpeed *= camMoveSpeedAccelerationFactor;
+        //if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) moveCamera(camMoveSpeed, 0);
+        //if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) moveCamera(-camMoveSpeed, 0);
+        //if (Gdx.input.isKeyPressed(Input.Keys.UP)) moveCamera(0, -camMoveSpeed);
+        //if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) moveCamera(0, camMoveSpeed);
+        //if (Gdx.input.isKeyPressed(Input.Keys.BACKSPACE)) cameraHelper.setPosition(0, 0);
 
         // Camera Controls (zoom)
         float camZoomSpeed = 1 * deltaTime;
@@ -153,31 +154,36 @@ public class WorldController extends InputAdapter {
         if (Gdx.input.isKeyPressed(Input.Keys.COMMA)) cameraHelper.addZoom(camZoomSpeed);
         if (Gdx.input.isKeyPressed(Input.Keys.PERIOD)) cameraHelper.addZoom(-camZoomSpeed);
         if (Gdx.input.isKeyPressed(Input.Keys.SLASH)) cameraHelper.setZoom(1);
+        if (Gdx.input.isKeyPressed(Input.Keys.T)) {
+            lives--;
+            if (isGameOver())
+                timeLeftGameOverDelay = Constants.TIME_DELAY_GAME_OVER;
+            else
+                initLevel();
+        }
+
     }
 
-    private void handleInputGame (float deltaTime) {
+    private void handleInputGame(float deltaTime) {
         //if (cameraHelper.hasTarget(level.test)) {
-            // Player Movement
-            if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
-                level.test.velocity.x =
-                        -level.test.terminalVelocity.x;
-            } else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-                level.test.velocity.x =
-                        level.test.terminalVelocity.x;
-            } else {
-                // Execute auto-forward movement on non-desktop platform
-                if (Gdx.app.getType() != Application.ApplicationType.Desktop) {
-                    level.test.velocity.x =
-                            level.test.terminalVelocity.x;
-                }
+        // Player Movement
+        if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+            level.test.velocity.x = -level.test.terminalVelocity.x;
+        } else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+            level.test.velocity.x = level.test.terminalVelocity.x;
+        } else {
+            // Execute auto-forward movement on non-desktop platform
+            if (Gdx.app.getType() != Application.ApplicationType.Desktop) {
+                level.test.velocity.x = level.test.terminalVelocity.x;
             }
-            // Bunny Jump
-            if (Gdx.input.isTouched() ||
-                    Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
-                level.test.setJumping(true);
-            } else {
-                level.test.setJumping(false);
-            }
+        }
+
+        // Bunny Jump
+        if (Gdx.input.isTouched() || Gdx.input.isKeyPressed(Input.Keys.UP)) {
+            level.test.setJumping(true);
+        } else {
+            level.test.setJumping(false);
+        }
         //}
     }
 
