@@ -1,13 +1,11 @@
 package com.mygdx.gragdx.game;
 
-import com.badlogic.gdx.Application;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input;
-import com.badlogic.gdx.InputAdapter;
+import com.badlogic.gdx.*;
 import com.badlogic.gdx.math.Rectangle;
 import com.mygdx.gragdx.game.objects.Point;
 import com.mygdx.gragdx.game.objects.Rock;
 import com.mygdx.gragdx.game.objects.Test;
+import com.mygdx.gragdx.screens.MenuScreen;
 import com.mygdx.gragdx.util.CameraHelper;
 import com.mygdx.gragdx.util.Constants;
 
@@ -18,6 +16,7 @@ public class WorldController extends InputAdapter {
     public Level level;
     public int lives;
     public int score;
+    private Game game;
 
     public CameraHelper cameraHelper;
 
@@ -25,7 +24,8 @@ public class WorldController extends InputAdapter {
     private Rectangle r1 = new Rectangle();
     private Rectangle r2 = new Rectangle();
 
-    public WorldController() {
+    public WorldController (Game game) {
+        this.game = game;
         init();
     }
 
@@ -47,7 +47,7 @@ public class WorldController extends InputAdapter {
         handleDebugInput(deltaTime);
         if (isGameOver()) {
             timeLeftGameOverDelay -= deltaTime;
-            if (timeLeftGameOverDelay < 0) init();
+            if (timeLeftGameOverDelay < 0) backToMenu();
         } else {
             handleInputGame(deltaTime);
         }
@@ -193,6 +193,11 @@ public class WorldController extends InputAdapter {
         cameraHelper.setPosition(x, y);
     }
 
+    private void backToMenu() {
+        // switch to menu screen
+        game.setScreen(new MenuScreen(game));
+    }
+
     @Override
     public boolean keyUp(int keycode) {
         // Reset game world
@@ -204,6 +209,10 @@ public class WorldController extends InputAdapter {
         else if (keycode == Input.Keys.ENTER) {
             cameraHelper.setTarget(cameraHelper.hasTarget() ? null : level.test);
             Gdx.app.debug(TAG, "Camera follow enabled: " + cameraHelper.hasTarget());
+        }
+        // Back to Menu
+        else if (keycode == Input.Keys.ESCAPE || keycode == Input.Keys.BACK) {
+            backToMenu();
         }
         return false;
     }
