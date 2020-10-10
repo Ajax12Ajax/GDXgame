@@ -8,8 +8,8 @@ import com.badlogic.gdx.utils.Array;
 import com.mygdx.gragdx.game.objects.*;
 
 public class Level {
-
     public static final String TAG = Level.class.getName();
+
 
     public enum BLOCK_TYPE {
         EMPTY(0, 0, 0), // black
@@ -43,9 +43,13 @@ public class Level {
     public Mountains mountains;
     public WaterOverlay waterOverlay;
 
+
+
+
     public Level(String filename) {
         init(filename);
     }
+
 
     private void init(String filename) {
         // player character
@@ -133,6 +137,8 @@ public class Level {
         Gdx.app.debug(TAG, "level '" + filename + "' loaded");
     }
 
+
+
     public void update (float deltaTime) {
         test.update(deltaTime);
 
@@ -144,6 +150,7 @@ public class Level {
 
         clouds.update(deltaTime);
     }
+
 
     public void render(SpriteBatch batch) {
         // Draw Mountains

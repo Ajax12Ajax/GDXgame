@@ -2,19 +2,23 @@ package com.mygdx.gragdx.screens;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.GL20;
 import com.mygdx.gragdx.game.WorldController;
 import com.mygdx.gragdx.game.WorldRenderer;
 
 public class GameScreen extends AbstractGameScreen {
     private static final String TAG = GameScreen.class.getName();
+
     private WorldController worldController;
     private WorldRenderer worldRenderer;
     private boolean paused;
 
+
     public GameScreen(Game game) {
         super(game);
     }
+
 
     @Override
     public void render(float deltaTime) {
@@ -38,18 +42,20 @@ public class GameScreen extends AbstractGameScreen {
         worldRenderer.resize(width, height);
     }
 
+
     @Override
     public void show() {
         worldController = new WorldController(game);
         worldRenderer = new WorldRenderer(worldController);
-        Gdx.input.setCatchBackKey(true);
+        Gdx.input.setCatchKey(Input.Keys.BACK, true);
     }
 
     @Override
     public void hide() {
         worldRenderer.dispose();
-        Gdx.input.setCatchBackKey(false);
+        Gdx.input.setCatchKey(Input.Keys.BACK, false);
     }
+
 
     @Override
     public void pause() {

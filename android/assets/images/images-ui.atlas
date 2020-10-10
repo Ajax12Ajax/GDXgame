@@ -1,0 +1,76 @@
+
+images-ui.png
+size: 2048,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+backgroundStart
+  rotate: false
+  xy: 15, 15
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+exit-dn
+  rotate: false
+  xy: 830, 67
+  size: 147, 55
+  orig: 180, 68
+  offset: 20, 7
+  index: -1
+exit-up
+  rotate: false
+  xy: 830, 137
+  size: 162, 60
+  orig: 200, 75
+  offset: 23, 8
+  index: -1
+hello
+  rotate: false
+  xy: 830, 360
+  size: 240, 60
+  orig: 280, 75
+  offset: 22, 8
+  index: -1
+play-dn
+  rotate: false
+  xy: 830, 212
+  size: 178, 58
+  orig: 180, 71
+  offset: 1, 7
+  index: -1
+play-up
+  rotate: false
+  xy: 830, 285
+  size: 186, 60
+  orig: 190, 75
+  offset: 2, 8
+  index: -1
+przerwa20
+  rotate: false
+  xy: 1346, 475
+  size: 200, 20
+  orig: 200, 20
+  offset: 0, 0
+  index: -1
+przerwa20R90
+  rotate: false
+  xy: 1031, 305
+  size: 20, 40
+  orig: 20, 40
+  offset: 0, 0
+  index: -1
+tools-dn
+  rotate: false
+  xy: 1097, 439
+  size: 234, 56
+  orig: 240, 69
+  offset: 3, 7
+  index: -1
+tools-up
+  rotate: false
+  xy: 830, 435
+  size: 252, 60
+  orig: 260, 75
+  offset: 4, 8
+  index: -1
