@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Disposable;
 import com.mygdx.gragdx.util.Constants;
+import com.mygdx.gragdx.util.GamePreferences;
 
 public class WorldRenderer implements Disposable {
     private static final String TAG = WorldRenderer.class.getName();
@@ -52,8 +53,8 @@ public class WorldRenderer implements Disposable {
         renderGuiScore(batch);
         // draw extra lives icon + text (anchored to top right edge)
         renderGuiExtraLive(batch);
-        // draw FPS text (anchored to bottom right edge)
-        renderGuiFpsCounter(batch);
+        if (GamePreferences.instance.showFpsCounter)
+            renderGuiFpsCounter(batch);
         // draw game over text
         renderGuiGameOverMessage(batch);
 

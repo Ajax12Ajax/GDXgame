@@ -3,9 +3,9 @@ package com.mygdx.gragdx.util;
 public class Constants {
 
     // Visible game world is 5 meters wide
-    public static final float VIEWPORT_WIDTH = 10.0f;
+    public static final float VIEWPORT_WIDTH = 5.0f;
     // Visible game world is 5 meters tall
-    public static final float VIEWPORT_HEIGHT = 10.0f;
+    public static final float VIEWPORT_HEIGHT = 5.0f;
     // GUI Width
     public static final float VIEWPORT_GUI_WIDTH = 800.0f;
     // GUI Height
@@ -26,4 +26,6 @@ public class Constants {
     public static final String TEXTURE_ATLAS_LIBGDX_UI = "images/uiskin.atlas";
 
     public static final String SKIN_LIBGDX_UI = "images/uiskin.json";
+    // Game preferences file
+    public static final String PREFERENCES = "canyonbunny.prefs";
 }

@@ -1,0 +1,62 @@
+
+tools.png
+size: 4096,4096
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+mutep
+  rotate: false
+  xy: 824, 516
+  size: 814, 1034
+  orig: 845, 1057
+  offset: 14, 11
+  index: -1
+mutep1
+  rotate: false
+  xy: 2655, 3001
+  size: 814, 1034
+  orig: 849, 1070
+  offset: 20, 17
+  index: -1
+mutev
+  rotate: false
+  xy: 2655, 1962
+  size: 814, 1034
+  orig: 857, 1078
+  offset: 22, 21
+  index: -1
+mutev1
+  rotate: false
+  xy: 5, 516
+  size: 814, 1034
+  orig: 853, 1077
+  offset: 21, 20
+  index: -1
+tlomenu
+  rotate: false
+  xy: 5, 1555
+  size: 2200, 2480
+  orig: 2200, 2480
+  offset: 0, 0
+  index: -1
+tlotools
+  rotate: false
+  xy: 2210, 1373
+  size: 440, 2662
+  orig: 528, 2750
+  offset: 44, 44
+  index: -1
+vm
+  rotate: false
+  xy: 5, 5
+  size: 770, 506
+  orig: 825, 549
+  offset: 29, 21
+  index: -1
+vp
+  rotate: false
+  xy: 2655, 1451
+  size: 770, 506
+  orig: 816, 538
+  offset: 33, 17
+  index: -1

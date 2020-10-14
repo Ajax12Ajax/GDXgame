@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="LibGDXGdxJsonFiles">
+    <file url="file://$PROJECT_DIR$/android/assets/images/uiskin.json" />
+  </component>
   <component name="LibGDXSkins">
     <file url="file://$PROJECT_DIR$/android/assets/images/images-ui.json" />
   </component>
