@@ -5,9 +5,7 @@ com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
     exit: { down: exit-dn, up: exit-up }
 },
 com.badlogic.gdx.scenes.scene2d.ui.Image: {
-    background: { drawable: backgroundStart },
+    backgroundStart: { drawable: backgroundStart },
     logo: { drawable: hello },
-    break: { drawable: przerwa20},
-    breakR90: { drawable: przerwa20R90},
 },
 }

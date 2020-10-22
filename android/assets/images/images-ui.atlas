@@ -13,7 +13,7 @@ backgroundStart
   index: -1
 exit-dn
   rotate: false
-  xy: 830, 67
+  xy: 1346, 440
   size: 147, 55
   orig: 180, 68
   offset: 20, 7
@@ -45,20 +45,6 @@ play-up
   size: 186, 60
   orig: 190, 75
   offset: 2, 8
-  index: -1
-przerwa20
-  rotate: false
-  xy: 1346, 475
-  size: 200, 20
-  orig: 200, 20
-  offset: 0, 0
-  index: -1
-przerwa20R90
-  rotate: false
-  xy: 1031, 305
-  size: 20, 40
-  orig: 20, 40
-  offset: 0, 0
   index: -1
 tools-dn
   rotate: false

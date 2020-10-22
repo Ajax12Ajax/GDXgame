@@ -21,7 +21,7 @@ public class DesktopLauncher {
 
         LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
         config.title = "pixel legends";
-        config.width = 785;
+        config.width = 885;
         config.height = 400;
         new LwjglApplication(new MyGdxGame(), config);
     }

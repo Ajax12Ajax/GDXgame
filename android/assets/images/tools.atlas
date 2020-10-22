@@ -4,59 +4,73 @@ size: 4096,4096
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-mutep
+check-off
   rotate: false
-  xy: 824, 516
-  size: 814, 1034
-  orig: 845, 1057
-  offset: 14, 11
+  xy: 824, 951
+  size: 74, 94
+  orig: 76, 96
+  offset: 1, 0
   index: -1
-mutep1
+check-off-f
   rotate: false
-  xy: 2655, 3001
+  xy: 5, 522
   size: 814, 1034
   orig: 849, 1070
   offset: 20, 17
   index: -1
-mutev
+check-on
   rotate: false
-  xy: 2655, 1962
+  xy: 3474, 3947
+  size: 74, 94
+  orig: 76, 97
+  offset: 2, 1
+  index: -1
+check-on-f
+  rotate: false
+  xy: 2655, 3007
   size: 814, 1034
-  orig: 857, 1078
-  offset: 22, 21
+  orig: 845, 1057
+  offset: 14, 11
   index: -1
-mutev1
+default
   rotate: false
-  xy: 5, 516
-  size: 814, 1034
-  orig: 853, 1077
-  offset: 21, 20
+  xy: 2655, 2925
+  size: 253, 77
+  orig: 256, 79
+  offset: 2, 1
   index: -1
-tlomenu
+default-window
   rotate: false
-  xy: 5, 1555
-  size: 2200, 2480
-  orig: 2200, 2480
-  offset: 0, 0
-  index: -1
-tlotools
-  rotate: false
-  xy: 2210, 1373
+  xy: 2210, 1379
   size: 440, 2662
   orig: 528, 2750
   offset: 44, 44
   index: -1
+tlomenu
+  rotate: false
+  xy: 5, 1561
+  size: 2200, 2480
+  orig: 2200, 2480
+  offset: 0, 0
+  index: -1
 vm
   rotate: false
-  xy: 5, 5
+  xy: 5, 11
   size: 770, 506
   orig: 825, 549
   offset: 29, 21
   index: -1
 vp
   rotate: false
-  xy: 2655, 1451
+  xy: 824, 1050
   size: 770, 506
   orig: 816, 538
   offset: 33, 17
+  index: -1
+white
+  rotate: false
+  xy: 5, 5
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
   index: -1
