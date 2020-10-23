@@ -50,48 +50,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/images-ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/images-ui.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/images-ui.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/images-ui.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/images/images-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/images-ui.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/tools.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/tools.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/tools.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/uiskin.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/uiskin.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/tools.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/uiskin.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/uiskin.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/uiskin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/uiskin.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/.transforms/a4c046245e3d263fdbfbd220d848ec24/core-1.0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/.transforms/a4c046245e3d263fdbfbd220d848ec24/core-1.0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldRenderer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$5.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/GamePreferences.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/GamePreferences.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/MenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/MenuScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/GamePreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/GamePreferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mygdx/gragdx/desktop/DesktopLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mygdx/gragdx/desktop/DesktopLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.json" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/uiskin.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/uiskin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/uiskin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/src/com/mygdx/gragdx/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/com/mygdx/gragdx/desktop/DesktopLauncher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,17 +156,17 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\levels" />
-      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\images" />
-      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets" />
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\images" />
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\levels" />
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\core\src\com\mygdx\gragdx\game" />
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\desktop\build\libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\levels" />
+      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\images" />
+      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets" />
     </key>
   </component>
   <component name="RunManager" selected="Application.desktop">
@@ -482,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602707846054</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="GDXgame | Creation">
+      <created>1603398283024</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603398283024</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -609,30 +589,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1066" y="450" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1600764662107" />
-    <state width="2517" height="121" key="GridCell.Tab.0.bottom" timestamp="1603397868402">
+    <state width="1304" height="80" key="GridCell.Tab.0.bottom" timestamp="1603466691011">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.bottom/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.bottom/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="121" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1603397868402" />
-    <state width="2517" height="121" key="GridCell.Tab.0.center" timestamp="1603397868402">
+    <state width="1304" height="80" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1603466691011" />
+    <state width="1304" height="80" key="GridCell.Tab.0.center" timestamp="1603466691011">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.center/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.center/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="121" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1603397868402" />
-    <state width="2517" height="121" key="GridCell.Tab.0.left" timestamp="1603397868402">
+    <state width="1304" height="80" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1603466691011" />
+    <state width="1304" height="80" key="GridCell.Tab.0.left" timestamp="1603466691011">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.left/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.left/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="121" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1603397868402" />
-    <state width="2517" height="121" key="GridCell.Tab.0.right" timestamp="1603397868402">
+    <state width="1304" height="80" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1603466691011" />
+    <state width="1304" height="80" key="GridCell.Tab.0.right" timestamp="1603466691011">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.right/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.right/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="121" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1603397868402" />
+    <state width="1304" height="80" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1603466691011" />
     <state width="2517" height="256" key="GridCell.Tab.1.bottom" timestamp="1603395501858">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -662,10 +642,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="201" y="350" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1600764648994" />
-    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2" timestamp="1602707852553">
+    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2" timestamp="1603398320167">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1602707852553" />
+    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1603398320167" />
     <state x="1494" y="451" key="caller.chooser.dialog" timestamp="1600888120099">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

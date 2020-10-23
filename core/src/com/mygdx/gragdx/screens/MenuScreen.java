@@ -30,13 +30,16 @@ public class MenuScreen extends AbstractGameScreen {
     private final Set<Action> animationActions = new HashSet<Action>();
 
     private Skin skinCanyonBunny;
+    private Image titleImage;
+
+
 
     public MenuScreen(Game game) {
         super(game);
     }
 
-    private void setupUi() {
 
+    private void setupUi() {
         skinCanyonBunny = new Skin(
                 Gdx.files.internal(Constants.SKIN_STARTMENU_UI),
                 new TextureAtlas(Constants.TEXTURE_ATLAS_UI));
@@ -46,16 +49,24 @@ public class MenuScreen extends AbstractGameScreen {
         setupButtons(0);
     }
 
+
+
     private void setupBackground() {
             Image image = new Image(skinCanyonBunny, "backgroundStart");
             backgroundUi.addActor(image);
     }
 
+
+
     private void setupTitle(float initialDelay) {
         Table titleTable = new Table();
         titleTable.setFillParent(true);
 
-        titleTable.add(new Image(skinCanyonBunny, "hello")).center().padRight(540).expand();
+        titleTable.left();
+
+        titleImage = new Image(skinCanyonBunny, "hello");
+        titleImage.setScale(1.25f);
+        titleTable.add(titleImage).padTop(45).padLeft(140);
         textUi.addActor(titleTable);
 
         registerAction(titleTable, Actions.sequence(
@@ -63,22 +74,28 @@ public class MenuScreen extends AbstractGameScreen {
                 Actions.delay(initialDelay), Actions.moveBy(2000, 0, 0.75f, Interpolation.exp5Out)));
     }
 
+
+
     private void setupButtons(float initialDelay) {
         Table menuTable = new Table();
         menuTable.setFillParent(true);
 
         Table menuSubTable = new Table();
-        addButton(menuSubTable, skinCanyonBunny, "play", initialDelay + 0.15f).addListener(new ChangeListener() {
+
+        // + Play Button
+        addButton(menuSubTable, skinCanyonBunny, "play", initialDelay + 0.15f * 1).addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
                 game.setScreen(new GameScreen(game));
             }
         });
+        // + Options Button
         addButton(menuSubTable, skinCanyonBunny, "options", initialDelay + 0.15f * 2).addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
             }
         });
+        // + Exit Button
         addButton(menuSubTable, skinCanyonBunny, "exit", initialDelay + 0.15f * 3).addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
@@ -87,30 +104,34 @@ public class MenuScreen extends AbstractGameScreen {
         });
 
         menuTable.right();
-        menuTable.add(menuSubTable).padRight(95);
+        menuTable.add(menuSubTable);
         textUi.addActor(menuTable);
 
-        registerAction(menuTable, Actions.sequence(
-                Actions.moveBy(1000, 0, 0),
-                Actions.delay(1f),
-                Actions.moveBy(-1000, 0, 0)));
+
     }
 
     private Button addButton(Table table, Skin typee, String name, float initialDelay) {
         Table button = new Button(typee, name);
-        table.add(button).padTop(20).row();
+        table.add(button).padRight(95).padTop(20).row();
 
         registerAction(button, Actions.sequence(
-                Actions.moveBy(800, 0, 1),
-                Actions.delay(initialDelay), Actions.moveBy(-800, 0, 0.25f, Interpolation.exp5Out)));
+                Actions.visible(false),
+                Actions.moveBy(1000, 0, 0.25f),
+                Actions.delay(initialDelay),
+                Actions.visible(true),
+                Actions.moveBy(-1000, 0, 0.25f, Interpolation.exp5Out)));
 
         return (Button) button;
     }
+
+
+
 
     private void registerAction(Actor actor, Action action) {
         animationActions.add(action);
         actor.addAction(action);
     }
+
 
     @Override
     public void show() {
@@ -140,6 +161,7 @@ public class MenuScreen extends AbstractGameScreen {
         textUi.act(deltaTime);
         textUi.draw();
     }
+
 
     @Override
     public void resize(int width, int height) {
