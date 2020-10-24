@@ -26,13 +26,14 @@ public class MenuScreen extends AbstractGameScreen {
 
     private final Stage backgroundUi = new Stage(new FillViewport(684, 516));
     private final Stage textUi = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
+    final Stage backgroundTools = new Stage(new FillViewport(684, 516));
 
     private final Set<Action> animationActions = new HashSet<Action>();
 
     private Skin skinCanyonBunny;
     private Image titleImage;
 
-
+    private ToolsMenu toolsMenu;
 
     public MenuScreen(Game game) {
         super(game);
@@ -40,6 +41,8 @@ public class MenuScreen extends AbstractGameScreen {
 
 
     private void setupUi() {
+        toolsMenu = new ToolsMenu();
+
         skinCanyonBunny = new Skin(
                 Gdx.files.internal(Constants.SKIN_STARTMENU_UI),
                 new TextureAtlas(Constants.TEXTURE_ATLAS_UI));
@@ -87,12 +90,15 @@ public class MenuScreen extends AbstractGameScreen {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
                 game.setScreen(new GameScreen(game));
+                textUi.getViewport().apply();
+                textUi.draw();
             }
         });
         // + Options Button
         addButton(menuSubTable, skinCanyonBunny, "options", initialDelay + 0.15f * 2).addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
+                setupToolsMenu();
             }
         });
         // + Exit Button
@@ -102,6 +108,7 @@ public class MenuScreen extends AbstractGameScreen {
                 Gdx.app.exit();
             }
         });
+
 
         menuTable.right();
         menuTable.add(menuSubTable);
@@ -124,6 +131,9 @@ public class MenuScreen extends AbstractGameScreen {
         return (Button) button;
     }
 
+    private void setupToolsMenu(){
+        toolsMenu.addTest(textUi, backgroundTools);
+    }
 
 
 
@@ -135,6 +145,7 @@ public class MenuScreen extends AbstractGameScreen {
 
     @Override
     public void show() {
+        Gdx.input.setInputProcessor(backgroundTools);
         Gdx.input.setInputProcessor(textUi);
 
         setupUi();
@@ -160,6 +171,10 @@ public class MenuScreen extends AbstractGameScreen {
         textUi.getViewport().apply();
         textUi.act(deltaTime);
         textUi.draw();
+
+        backgroundTools.getViewport().apply();
+        backgroundTools.act(deltaTime);
+        backgroundTools.draw();
     }
 
 
@@ -167,6 +182,7 @@ public class MenuScreen extends AbstractGameScreen {
     public void resize(int width, int height) {
         backgroundUi.getViewport().update(width, height, true);
         textUi.getViewport().update(width, height, true);
+        backgroundTools.getViewport().update(width, height, true);
     }
 
     @Override
@@ -174,6 +190,7 @@ public class MenuScreen extends AbstractGameScreen {
         textUi.dispose();
         backgroundUi.dispose();
         skinCanyonBunny.dispose();
+        backgroundTools.dispose();
 
     }
 
@@ -187,5 +204,6 @@ public class MenuScreen extends AbstractGameScreen {
         textUi.dispose();
         backgroundUi.dispose();
         skinCanyonBunny.dispose();
+        backgroundTools.dispose();
     }
 }
