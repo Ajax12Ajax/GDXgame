@@ -1,75 +1,97 @@
 
 tools.png
-size: 2048,4096
+size: 924,621
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-check-off
+background
   rotate: false
-  xy: 1269, 1633
-  size: 74, 94
-  orig: 76, 96
-  offset: 1, 0
-  index: -1
-check-off-f
-  rotate: false
-  xy: 450, 1715
-  size: 814, 1034
-  orig: 849, 1070
-  offset: 20, 17
-  index: -1
-check-on
-  rotate: false
-  xy: 450, 92
-  size: 74, 94
-  orig: 76, 97
-  offset: 2, 1
-  index: -1
-check-on-f
-  rotate: false
-  xy: 450, 676
-  size: 814, 1034
-  orig: 845, 1057
-  offset: 14, 11
-  index: -1
-default
-  rotate: false
-  xy: 5, 5
-  size: 253, 77
-  orig: 256, 79
-  offset: 2, 1
-  index: -1
-default-window
-  rotate: false
-  xy: 5, 87
-  size: 440, 2662
-  orig: 528, 2750
-  offset: 44, 44
-  index: -1
-tlomenu
-  rotate: false
-  xy: 450, 191
+  xy: 8, 133
   size: 800, 480
   orig: 800, 480
   offset: 0, 0
   index: -1
+backgroundTools
+  rotate: false
+  xy: 816, 8
+  size: 100, 605
+  orig: 120, 625
+  offset: 10, 10
+  index: -1
+check-off
+  rotate: false
+  xy: 515, 31
+  size: 74, 94
+  orig: 74, 94
+  offset: 0, 0
+  index: -1
+check-off-f
+  rotate: false
+  xy: 269, 31
+  size: 74, 94
+  orig: 74, 94
+  offset: 0, 0
+  index: -1
+check-on
+  rotate: false
+  xy: 351, 31
+  size: 74, 94
+  orig: 74, 94
+  offset: 0, 0
+  index: -1
+check-on-f
+  rotate: false
+  xy: 433, 31
+  size: 74, 94
+  orig: 74, 94
+  offset: 0, 0
+  index: -1
+default
+  rotate: false
+  xy: 8, 48
+  size: 253, 77
+  orig: 256, 79
+  offset: 2, 1
+  index: -1
+default-slider
+  rotate: false
+  xy: 753, 117
+  size: 8, 8
+  split: 3, 2, 2, 2
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+default-slider-knob-h
+  rotate: false
+  xy: 8, 22
+  size: 9, 18
+  orig: 9, 18
+  offset: 0, 0
+  index: -1
+default-slider-knob-v
+  rotate: false
+  xy: 597, 62
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
 vm
   rotate: false
-  xy: 1269, 2243
-  size: 770, 506
-  orig: 825, 549
-  offset: 29, 21
+  xy: 597, 79
+  size: 70, 46
+  orig: 94, 60
+  offset: 6, 4
   index: -1
 vp
   rotate: false
-  xy: 1269, 1732
-  size: 770, 506
-  orig: 816, 538
-  offset: 33, 17
+  xy: 675, 79
+  size: 70, 46
+  orig: 94, 60
+  offset: 6, 4
   index: -1
 white
   rotate: false
-  xy: 1255, 670
+  xy: 8, 13
   size: 1, 1
   orig: 1, 1
   offset: 0, 0

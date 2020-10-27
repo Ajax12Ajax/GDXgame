@@ -32,7 +32,7 @@ ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest
 	android:appCategory
 		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:9:13-39
 	tools:targetApi
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:12:13-32
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:12:13-33
 	android:icon
 		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:7:13-44
 	android:allowBackup
@@ -44,21 +44,21 @@ ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest
 activity#com.mygdx.gragdx.AndroidLauncher
 ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:14:9-23:20
 	android:screenOrientation
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:17:13-50
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:17:17-54
 	android:label
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:16:13-45
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:16:17-49
 	android:configChanges
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:18:13-107
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:18:17-111
 	android:name
-		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:15:13-60
+		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:15:17-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:20:17-68
 	android:name
 		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:21:17-76
 	android:name
 		ADDED from C:\Users\janst\Documents\libGDXproject\graGDX\android\AndroidManifest.xml:21:27-74
 uses-sdk

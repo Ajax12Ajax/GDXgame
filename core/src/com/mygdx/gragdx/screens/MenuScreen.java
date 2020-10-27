@@ -27,6 +27,7 @@ public class MenuScreen extends AbstractGameScreen {
     private final Stage backgroundUi = new Stage(new FillViewport(684, 516));
     private final Stage textUi = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
     final Stage backgroundTools = new Stage(new FillViewport(684, 516));
+    final Stage textTools = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
 
     private final Set<Action> animationActions = new HashSet<Action>();
 
@@ -34,6 +35,7 @@ public class MenuScreen extends AbstractGameScreen {
     private Image titleImage;
 
     private ToolsMenu toolsMenu;
+
 
     public MenuScreen(Game game) {
         super(game);
@@ -53,12 +55,10 @@ public class MenuScreen extends AbstractGameScreen {
     }
 
 
-
     private void setupBackground() {
-            Image image = new Image(skinCanyonBunny, "backgroundStart");
-            backgroundUi.addActor(image);
+        Image image = new Image(skinCanyonBunny, "backgroundStart");
+        backgroundUi.addActor(image);
     }
-
 
 
     private void setupTitle(float initialDelay) {
@@ -75,8 +75,8 @@ public class MenuScreen extends AbstractGameScreen {
         registerAction(titleTable, Actions.sequence(
                 Actions.moveBy(-2000, 0, 0),
                 Actions.delay(initialDelay), Actions.moveBy(2000, 0, 0.75f, Interpolation.exp5Out)));
-    }
 
+    }
 
 
     private void setupButtons(float initialDelay) {
@@ -114,7 +114,6 @@ public class MenuScreen extends AbstractGameScreen {
         menuTable.add(menuSubTable);
         textUi.addActor(menuTable);
 
-
     }
 
     private Button addButton(Table table, Skin typee, String name, float initialDelay) {
@@ -131,10 +130,10 @@ public class MenuScreen extends AbstractGameScreen {
         return (Button) button;
     }
 
-    private void setupToolsMenu(){
-        toolsMenu.addTest(textUi, backgroundTools);
+    private void setupToolsMenu() {
+        Gdx.input.setInputProcessor(textTools);
+        toolsMenu.addTools(textTools, backgroundTools, textUi);
     }
-
 
 
     private void registerAction(Actor actor, Action action) {
@@ -143,9 +142,9 @@ public class MenuScreen extends AbstractGameScreen {
     }
 
 
+
     @Override
     public void show() {
-        Gdx.input.setInputProcessor(backgroundTools);
         Gdx.input.setInputProcessor(textUi);
 
         setupUi();
@@ -160,21 +159,20 @@ public class MenuScreen extends AbstractGameScreen {
         if (Gdx.input.isButtonJustPressed(0)) {
             for (Action action : animationActions) {
                 //noinspection StatementWithEmptyBody
-                while (!action.act(100)) ; // finish all animations, needs multiple calls since a sequence only steps the current action
+                while (!action.act(100))
+                    ; // finish all animations, needs multiple calls since a sequence only steps the current action
             }
         }
 
-        backgroundUi.getViewport().apply();
-        backgroundUi.act(deltaTime);
-        backgroundUi.draw();
-
-        textUi.getViewport().apply();
-        textUi.act(deltaTime);
-        textUi.draw();
-
-        backgroundTools.getViewport().apply();
-        backgroundTools.act(deltaTime);
-        backgroundTools.draw();
+        drawStage(backgroundUi, deltaTime);
+        drawStage(textUi, deltaTime);
+        drawStage(backgroundTools, deltaTime);
+        drawStage(textTools, deltaTime);
+    }
+    private void drawStage(Stage stage, Float deltaTime) {
+        stage.getViewport().apply();
+        stage.act(deltaTime);
+        stage.draw();
     }
 
 
@@ -183,15 +181,12 @@ public class MenuScreen extends AbstractGameScreen {
         backgroundUi.getViewport().update(width, height, true);
         textUi.getViewport().update(width, height, true);
         backgroundTools.getViewport().update(width, height, true);
+        textTools.getViewport().update(width, height, true);
     }
 
     @Override
     public void hide() {
-        textUi.dispose();
-        backgroundUi.dispose();
-        skinCanyonBunny.dispose();
-        backgroundTools.dispose();
-
+        Dispose();
     }
 
     @Override
@@ -201,9 +196,14 @@ public class MenuScreen extends AbstractGameScreen {
 
     @Override
     public void dispose() {
+        Dispose();
+    }
+
+    private void Dispose() {
         textUi.dispose();
         backgroundUi.dispose();
         skinCanyonBunny.dispose();
         backgroundTools.dispose();
+        textTools.dispose();
     }
 }
