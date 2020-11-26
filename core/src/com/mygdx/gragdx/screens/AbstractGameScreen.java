@@ -6,6 +6,7 @@ import com.badlogic.gdx.assets.AssetManager;
 import com.mygdx.gragdx.game.Assets;
 
 public abstract class AbstractGameScreen implements Screen {
+    private static final String TAG = AbstractGameScreen.class.getName();
     protected Game game;
 
     public AbstractGameScreen(Game game) {

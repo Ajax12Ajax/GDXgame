@@ -5,7 +5,7 @@ import com.badlogic.gdx.math.Rectangle;
 import com.mygdx.gragdx.game.objects.Point;
 import com.mygdx.gragdx.game.objects.Rock;
 import com.mygdx.gragdx.game.objects.Test;
-import com.mygdx.gragdx.screens.MenuScreen;
+import com.mygdx.gragdx.screens.StartScreen;
 import com.mygdx.gragdx.util.CameraHelper;
 import com.mygdx.gragdx.util.Constants;
 
@@ -52,13 +52,14 @@ public class WorldController extends InputAdapter {
         handleDebugInput(deltaTime);
         if (isGameOver()) {
             timeLeftGameOverDelay -= deltaTime;
-            if (timeLeftGameOverDelay < 0) backToMenu();
+            if (timeLeftGameOverDelay < 0)
+                backToMenu();
         } else {
             handleInputGame(deltaTime);
         }
         level.update(deltaTime);
-        cameraHelper.update(deltaTime);
         testCollisions();
+        cameraHelper.update(deltaTime, 55, 5.55f);
         if (!isGameOver() && isPlayerInWater()) {
             lives--;
             if (isGameOver())
@@ -66,6 +67,7 @@ public class WorldController extends InputAdapter {
             else
                 initLevel();
         }
+        level.mountains.updateScrollPosition(cameraHelper.getPosition());
     }
 
 
@@ -189,7 +191,7 @@ public class WorldController extends InputAdapter {
 
     private void backToMenu() {
         // switch to menu screen
-        game.setScreen(new MenuScreen(game));
+        game.setScreen(new StartScreen(game));
     }
 
     @Override

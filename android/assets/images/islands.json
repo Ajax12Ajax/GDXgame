@@ -1,0 +1,10 @@
+{
+com.badlogic.gdx.scenes.scene2d.ui.Image: {
+    clouds: { drawable: clouds },
+    clouds2: { drawable: clouds2 },
+	clouds3: { drawable: clouds3 },
+	clouds4: { drawable: clouds4 },
+	clouds5: { drawable: clouds5 },
+	backgroundMenu: { drawable: backgroundMenu },
+},
+}

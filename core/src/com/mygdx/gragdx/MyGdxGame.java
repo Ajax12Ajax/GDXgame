@@ -5,9 +5,10 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.assets.AssetManager;
 import com.mygdx.gragdx.game.Assets;
-import com.mygdx.gragdx.screens.MenuScreen;
+import com.mygdx.gragdx.screens.StartScreen;
 
 public class MyGdxGame extends Game {
+    private static final String TAG = MyGdxGame.class.getName();
 
     @Override
     public void create() {
@@ -16,6 +17,6 @@ public class MyGdxGame extends Game {
         // Load assets
         Assets.instance.init(new AssetManager());
         // Start game at menu screen
-        setScreen(new MenuScreen(this));
+        setScreen(new StartScreen(this));
     }
 }

@@ -9,11 +9,17 @@ import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override
-	protected void onCreate (Bundle savedInstanceState) {
+	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-		initialize(new MyGdxGame(), config);
 
+		AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
+
+		initialize(new MyGdxGame(), cfg);
+
+		cfg.useImmersiveMode = true;
+		cfg.hideStatusBar = true;
+
+		// In KITKAT (4.4) and next releases, hide the virtual buttons
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
 			hideVirtualButtons();
 		}
@@ -29,7 +35,7 @@ public class AndroidLauncher extends AndroidApplication {
 			}
 		}
 	}
-	@TargetApi(Build.VERSION_CODES.KITKAT)
+	@TargetApi(19)
 	private void hideVirtualButtons() {
 		getWindow().getDecorView().setSystemUiVisibility(
 				View.SYSTEM_UI_FLAG_LAYOUT_STABLE

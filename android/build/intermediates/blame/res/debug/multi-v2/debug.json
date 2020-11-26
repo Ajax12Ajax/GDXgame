@@ -11,7 +11,7 @@
                         "startOffsets": "17",
                         "endLines": "9",
                         "endColumns": "12",
-                        "endOffsets": "475"
+                        "endOffsets": "497"
                     },
                     "to": {
                         "startLines": "4",
@@ -19,12 +19,17 @@
                         "startOffsets": "162",
                         "endLines": "11",
                         "endColumns": "12",
-                        "endOffsets": "620"
+                        "endOffsets": "642"
                     }
                 },
                 {
                     "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\values\\color.xml",
                     "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
@@ -35,11 +40,9 @@
                 {
                     "source": "C:\\Users\\janst\\Documents\\libGDXproject\\graGDX\\android\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "59",
-                        "endColumns": "50",
-                        "endOffsets": "105"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
                         "startLines": "3",

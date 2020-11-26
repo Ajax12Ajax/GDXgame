@@ -30,17 +30,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="graGDX.core" exported="" />
-    <orderEntry type="library" exported="" name="Gradle: gdx-backend-robovm-1.9.10" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: robovm-rt-2.3.8" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: robovm-cocoatouch-2.3.8" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: gdx-platform-1.9.10-natives-ios" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: gdx-box2d-platform-1.9.10-natives-ios" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: gdx-freetype-platform-1.9.10-natives-ios" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: robovm-objc-2.3.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gdx-backend-robovm-1.9.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: robovm-rt-2.3.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: robovm-cocoatouch-2.3.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gdx-platform-1.9.11-natives-ios" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gdx-box2d-platform-1.9.11-natives-ios" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gdx-freetype-platform-1.9.11-natives-ios" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: robovm-objc-2.3.11" level="project" />
     <orderEntry type="library" exported="" name="Gradle: box2dlights-1.4" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: gdx-box2d-1.9.10" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: gdx-freetype-1.9.10" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: gdx-1.9.10" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gdx-box2d-1.9.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gdx-freetype-1.9.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gdx-1.9.11" level="project" />
     <orderEntry type="library" exported="" name="Gradle: graGDX.ios.ios-1.0" level="project" />
   </component>
 </module>

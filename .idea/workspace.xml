@@ -38,7 +38,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1af4aba8-37f5-4fb2-a904-999ee3dd0114" name="Default Changelist" comment="GDXgame | Creation">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_1_9_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_backend_android_1_9_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_box2d_1_9_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_freetype_1_9_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_headless_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_lwjgl_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_robovm_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_box2d_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_box2d_platform_1_9_11_natives_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_box2d_platform_1_9_11_natives_ios.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_platform_1_9_11_natives_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_platform_1_9_11_natives_ios.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_platform_1_9_11_natives_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_platform_1_9_11_natives_ios.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_tools_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__robovm_cocoatouch_2_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__robovm_objc_2_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__robovm_rt_2_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/images/Gui.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/images/Gui.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/images/Gui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/images/islands.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/images/islands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/images/islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/particles/dust.pfx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/particles/particle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/MenuRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/objects/Rock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/PauseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/StartScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid12076.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid12948.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid18468.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid19896.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid25248.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid5052.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid5340.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -49,35 +89,182 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_1_9_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_backend_android_1_9_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_box2d_1_9_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_freetype_1_9_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_headless_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_lwjgl_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_robovm_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_box2d_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_box2d_platform_1_9_10_natives_desktop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_box2d_platform_1_9_10_natives_ios.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_platform_1_9_10_natives_desktop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_platform_1_9_10_natives_ios.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_platform_1_9_10_natives_desktop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_platform_1_9_10_natives_ios.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_tools_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__robovm_cocoatouch_2_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__robovm_objc_2_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__robovm_rt_2_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/android/graGDX.android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/android/graGDX.android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/graGDX.core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/graGDX.core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/desktop/graGDX.desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/desktop/graGDX.desktop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ios/graGDX.ios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ios/graGDX.ios.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/tools.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/tools.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/tools.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/tools.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/images-ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/images-ui.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/images-ui.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/images-ui.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/images-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/images-ui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/test.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/test.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/app_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/app_classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/external_libs_dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/external_libs_dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6TiOhDUb1FIDZjpj03w9BKlDjcA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KnGOI5pe3gbGNTui+P+aoG+tx50=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SB3fiK9LQGRbGqAupln5vXjvK68=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/U7SJKdsprjJD6Id9H8ChKbRz3KY=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6TiOhDUb1FIDZjpj03w9BKlDjcA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/KnGOI5pe3gbGNTui+P+aoG+tx50=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/SB3fiK9LQGRbGqAupln5vXjvK68=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/U7SJKdsprjJD6Id9H8ChKbRz3KY=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/javac/debug/classes/com/mygdx/gragdx/AndroidLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/javac/debug/classes/com/mygdx/gragdx/AndroidLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/tools.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/tools.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/tools.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/tools.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/test.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/test.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/armeabi/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86_64/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86_64/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86_64/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86_64/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86_64/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_jni_libs/debug/out/x86_64/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/aea1c871b0e8e5410c9df5cb26f6e3fbcc6bbfa5d41c7934c7b6bfceebb38922_0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/aea1c871b0e8e5410c9df5cb26f6e3fbcc6bbfa5d41c7934c7b6bfceebb38922_0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/aea1c871b0e8e5410c9df5cb26f6e3fbcc6bbfa5d41c7934c7b6bfceebb38922_1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/aea1c871b0e8e5410c9df5cb26f6e3fbcc6bbfa5d41c7934c7b6bfceebb38922_1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/com/mygdx/gragdx/AndroidLauncher.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/com/mygdx/gragdx/AndroidLauncher.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/armeabi/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libgdx.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/arm64-v8a/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/arm64-v8a/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/arm64-v8a/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/arm64-v8a/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/arm64-v8a/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/arm64-v8a/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi-v7a/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi-v7a/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi-v7a/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/armeabi/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/armeabi/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/armeabi/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/x86/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/x86/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/x86/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/x86/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/x86/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/x86/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/x86_64/libgdx-box2d.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/x86_64/libgdx-box2d.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/x86_64/libgdx-freetype.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/x86_64/libgdx-freetype.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/x86_64/libgdx.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/x86_64/libgdx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/com/mygdx/gragdx/AndroidLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/com/mygdx/gragdx/AndroidLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/.transforms/a4c046245e3d263fdbfbd220d848ec24/core-1.0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/.transforms/a4c046245e3d263fdbfbd220d848ec24/core-1.0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/MyGdxGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/MyGdxGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Clouds.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Clouds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Mountains.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Mountains.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Rock.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Rock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test$JUMP_STATE.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test$JUMP_STATE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test$VIEW_DIRECTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test$VIEW_DIRECTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/WaterOverlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/WaterOverlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/AbstractGameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/AbstractGameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/CameraHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/CameraHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/MyGdxGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/MyGdxGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/Assets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Clouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Clouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Mountains.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Mountains.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/WaterOverlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/WaterOverlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/AbstractGameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/AbstractGameScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/MenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/MenuScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/ToolsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/ToolsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/tools.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/tools.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/tools.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/tools.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/CameraHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/CameraHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.json" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/test.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/test.atlas" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +277,6 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -161,19 +347,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/desktop" />
-    <property name="last_opened_file_path" value="E:/Users/janst/Downloads/libgdx-demo-superjumper-master/libgdx-demo-superjumper-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/assets" />
     <property name="memory.settings.postsync.last.time.stamp" value="1598787589094" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\levels" />
-      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\images" />
-      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets" />
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\images" />
@@ -181,8 +362,19 @@
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\core\src\com\mygdx\gragdx\game" />
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\desktop\build\libs" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\particles" />
+      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\levels" />
+      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\images" />
+      <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets" />
+    </key>
   </component>
-  <component name="RunManager" selected="Android App.graGDX.android">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="graGDX.android" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.desktop">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -489,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603567493443</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="GDXgame | Creation">
+      <created>1603834894169</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1603834894169</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -539,14 +738,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="GDXgame | Creation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="379" key="#Inspections" timestamp="1600866520002">
+    <state x="267" y="379" key="#Inspections" timestamp="1605030103769">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="267" y="379" key="#Inspections/0.0.2560.1400@0.0.2560.1400" timestamp="1600866520002" />
-    <state x="798" y="432" key="#PSD" timestamp="1595443451549">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="798" y="432" key="#PSD/0.0.2560.1400@0.0.2560.1400" timestamp="1595443451549" />
+    <state x="267" y="379" key="#Inspections/0.0.2560.1400@0.0.2560.1400" timestamp="1605030103769" />
     <state x="240" y="341" key="#Plugins" timestamp="1603092186555">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -556,58 +751,50 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="723" y="521" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1600349352249" />
-    <state x="1348" y="230" width="1089" height="1170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600866418536">
+    <state x="1348" y="230" width="1089" height="1170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605648030628">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1348" y="230" width="1089" height="1170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600866418536" />
-    <state x="967" y="400" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1596222006442">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="967" y="400" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596222006442" />
+    <state x="1348" y="230" width="1089" height="1170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605648030628" />
     <state x="1472" y="444" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598878411458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1472" y="444" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598878411458" />
-    <state x="1725" y="410" key="#com.intellij.ide.util.MemberChooser" timestamp="1603473463698">
+    <state x="717" y="510" key="#com.intellij.ide.util.MemberChooser" timestamp="1606394574142">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1725" y="410" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1603473463698" />
+    <state x="717" y="510" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1606394574142" />
     <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599846836417">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599846836417" />
-    <state x="593" y="322" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602348904741">
+    <state x="593" y="322" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604341239891">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="593" y="322" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1602348904741" />
-    <state x="620" y="441" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602793985966">
+    <state x="593" y="322" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1604341239891" />
+    <state x="982" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604339227451">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="620" y="441" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602793985966" />
+    <state x="982" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604339227451" />
+    <state x="620" y="441" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604435361137">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="620" y="441" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604435361137" />
     <state x="1011" y="447" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1601409005999">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1011" y="447" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601409005999" />
-    <state x="996" y="351" width="582" height="699" key="#win" timestamp="1597669743532">
+    <state x="447" y="619" width="1308" height="741" key="AVDManager" timestamp="1606141709747">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="996" y="351" width="582" height="699" key="#win/0.0.2560.1400@0.0.2560.1400" timestamp="1597669743532" />
-    <state x="385" y="663" width="1308" height="605" key="AVDManager" timestamp="1598880142683">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="385" y="663" width="1308" height="605" key="AVDManager/0.0.2560.1400@0.0.2560.1400" timestamp="1598880142683" />
-    <state x="1775" y="462" key="AndroidProcessChooserDialog" timestamp="1597412500120">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1775" y="462" key="AndroidProcessChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597412500120" />
+    <state x="447" y="619" width="1308" height="741" key="AVDManager/0.0.2560.1400@0.0.2560.1400" timestamp="1606141709747" />
     <state x="890" y="273" width="790" height="984" key="CommitChangelistDialog2" timestamp="1598786061126">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="890" y="273" width="790" height="984" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1598786061126" />
-    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog" timestamp="1602104622106">
+    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog" timestamp="1604335699974">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602104622106" />
+    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604335699974" />
     <state x="1560" y="489" key="EnvironmentVariablesDialog" timestamp="1598878281097">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -616,46 +803,46 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1066" y="450" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1603488256563" />
-    <state width="2517" height="136" key="GridCell.Tab.0.bottom" timestamp="1603834842516">
+    <state width="2517" height="153" key="GridCell.Tab.0.bottom" timestamp="1606412403467">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.bottom/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.bottom/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="136" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1603834842516" />
-    <state width="2517" height="136" key="GridCell.Tab.0.center" timestamp="1603834842516">
+    <state width="2517" height="153" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606412403467" />
+    <state width="2517" height="153" key="GridCell.Tab.0.center" timestamp="1606412403466">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.center/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.center/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="136" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1603834842516" />
-    <state width="2517" height="136" key="GridCell.Tab.0.left" timestamp="1603834842516">
+    <state width="2517" height="153" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606412403466" />
+    <state width="2517" height="153" key="GridCell.Tab.0.left" timestamp="1606412403465">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.left/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.left/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="136" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1603834842516" />
-    <state width="2517" height="136" key="GridCell.Tab.0.right" timestamp="1603834842516">
+    <state width="2517" height="153" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606412403465" />
+    <state width="2517" height="153" key="GridCell.Tab.0.right" timestamp="1606412403466">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.right/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.right/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="136" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1603834842516" />
-    <state width="2517" height="256" key="GridCell.Tab.1.bottom" timestamp="1603567996735">
+    <state width="2517" height="153" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606412403466" />
+    <state width="2517" height="255" key="GridCell.Tab.1.bottom" timestamp="1605603040777">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="256" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1603567996735" />
-    <state width="2517" height="256" key="GridCell.Tab.1.center" timestamp="1603567996735">
+    <state width="2517" height="255" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605603040777" />
+    <state width="2517" height="255" key="GridCell.Tab.1.center" timestamp="1605603040776">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="256" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1603567996735" />
-    <state width="2517" height="256" key="GridCell.Tab.1.left" timestamp="1603567996735">
+    <state width="2517" height="255" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605603040776" />
+    <state width="2517" height="255" key="GridCell.Tab.1.left" timestamp="1605603040776">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="256" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1603567996735" />
-    <state width="2517" height="256" key="GridCell.Tab.1.right" timestamp="1603567996735">
+    <state width="2517" height="255" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605603040776" />
+    <state width="2517" height="255" key="GridCell.Tab.1.right" timestamp="1605603040776">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="256" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1603567996735" />
+    <state width="2517" height="255" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605603040776" />
     <state x="958" y="607" key="IDE.errors.dialog" timestamp="1603102063526">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -665,38 +852,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="314" y="402" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603125819692" />
-    <state x="201" y="350" key="SettingsEditor" timestamp="1600764648994">
+    <state x="201" y="350" key="SettingsEditor" timestamp="1606164413754">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="201" y="350" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1600764648994" />
-    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2" timestamp="1603476258355">
+    <state x="201" y="350" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606164413754" />
+    <state width="498" height="477" key="SwitcherDM" timestamp="1606205665476">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1603476258355" />
+    <state width="498" height="477" key="SwitcherDM/0.0.2560.1400@0.0.2560.1400" timestamp="1606205665476" />
+    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2" timestamp="1603834914910">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1603834914910" />
     <state x="1494" y="451" key="caller.chooser.dialog" timestamp="1600888120099">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1494" y="451" key="caller.chooser.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600888120099" />
-    <state x="969" y="314" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1597261426919">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="969" y="314" key="com.intellij.javaee.MapExternalResourceDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597261426919" />
     <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599846711970">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599846711970" />
-    <state x="1691" y="517" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600201103524">
+    <state x="1691" y="517" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606394968130">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1691" y="517" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600201103524" />
+    <state x="1691" y="517" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1606394968130" />
     <state x="829" y="436" width="902" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603555787987">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="829" y="436" width="902" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400@0.0.2560.1400" timestamp="1603555787987" />
-    <state x="1273" y="0" width="1293" height="1407" key="dock-window-1" timestamp="1603793943284">
+    <state x="1273" y="0" width="1293" height="1407" key="dock-window-1" timestamp="1603908913826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1273" y="0" width="1293" height="1407" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1603793943284" />
+    <state x="1273" y="0" width="1293" height="1407" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1603908913826" />
     <state x="987" y="300" width="587" height="801" key="find.popup" timestamp="1599850061173">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -705,28 +892,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1575" y="828" key="git4idea.merge.GitPullDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598036302341" />
-    <state x="342" y="458" key="refactoring.ChangeSignatureDialog" timestamp="1601408680720">
+    <state x="342" y="458" key="refactoring.ChangeSignatureDialog" timestamp="1604346128782">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="342" y="458" key="refactoring.ChangeSignatureDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601408680720" />
-    <state x="938" y="331" key="run.anything.popup" timestamp="1603223586443">
+    <state x="342" y="458" key="refactoring.ChangeSignatureDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604346128782" />
+    <state x="938" y="331" width="672" height="677" key="run.anything.popup" timestamp="1606391729247">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="938" y="331" key="run.anything.popup/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601055893078" />
-    <state x="938" y="331" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603223586443" />
-    <state x="1379" y="721" width="672" height="678" key="search.everywhere.popup" timestamp="1603705388479">
+    <state x="938" y="331" width="672" height="677" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1606391729247" />
+    <state x="1379" y="721" width="672" height="678" key="search.everywhere.popup" timestamp="1606391732342">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1379" y="721" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603705388479" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="1379" y="721" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1606391732342" />
   </component>
 </project>

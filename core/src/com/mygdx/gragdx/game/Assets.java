@@ -14,9 +14,9 @@ import com.mygdx.gragdx.util.Constants;
 
 
 public class Assets implements Disposable, AssetErrorListener {
-    static final String TAG = Assets.class.getName();
+    static final String TAG = com.mygdx.gragdx.game.Assets.class.getName();
 
-    public static final Assets instance = new Assets();
+    public static final Assets instance = new com.mygdx.gragdx.game.Assets();
 
     private AssetManager assetManager;
 

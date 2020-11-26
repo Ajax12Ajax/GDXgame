@@ -1,209 +1,170 @@
 package com.mygdx.gragdx.screens;
 
-
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL30;
+import com.badlogic.gdx.Input;
+import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.math.Interpolation;
-import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
-import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
-import com.badlogic.gdx.utils.viewport.FillViewport;
+import com.mygdx.gragdx.menu.MenuController;
+import com.mygdx.gragdx.menu.MenuRenderer;
 import com.mygdx.gragdx.util.Constants;
-
-import java.util.HashSet;
-import java.util.Set;
+import com.mygdx.gragdx.util.GamePreferences;
 
 public class MenuScreen extends AbstractGameScreen {
+    private static final String TAG = MenuScreen.class.getName();
 
-    private final Stage backgroundUi = new Stage(new FillViewport(684, 516));
-    private final Stage textUi = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
-    final Stage backgroundTools = new Stage(new FillViewport(684, 516));
-    final Stage textTools = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
+    private final Stage stageGui = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
+    private Skin skin;
 
-    private final Set<Action> animationActions = new HashSet<Action>();
-
-    private Skin skinCanyonBunny;
-    private Image titleImage;
-
+    private MenuController worldController;
+    private MenuRenderer worldRenderer;
+    private PauseMenu pauseMenu;
     private ToolsMenu toolsMenu;
+    public boolean paused;
+    private boolean pauseCheck = true;
+
+    Stage stagePause;
 
 
     public MenuScreen(Game game) {
         super(game);
     }
 
+    @Override
+    public void render(float deltaTime) {
+        // Do not update game world when paused.
+        if (!paused) {
+            // Update game world by the time that has passed
+            // since last rendered frame.
+            worldController.update(deltaTime, stageGui);
+        }
+        // Sets the clear screen color to: Cornflower Blue
+        Gdx.gl.glClearColor(0x64 / 255.0f, 0x95 / 255.0f, 0xed / 255.0f, 0xff / 255.0f);
+        // Clears the screen
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        // Render game world to screen
+        worldRenderer.render(deltaTime);
 
-    private void setupUi() {
-        toolsMenu = new ToolsMenu();
+        stageGui.getViewport().apply();
+        stageGui.act(deltaTime);
+        stageGui.draw();
 
-        skinCanyonBunny = new Skin(
-                Gdx.files.internal(Constants.SKIN_STARTMENU_UI),
-                new TextureAtlas(Constants.TEXTURE_ATLAS_UI));
+        pauseMenu.draw(deltaTime);
+        toolsMenu.draw(deltaTime);
 
-        setupBackground();
-        setupTitle(0);
-        setupButtons(0);
-    }
-
-
-    private void setupBackground() {
-        Image image = new Image(skinCanyonBunny, "backgroundStart");
-        backgroundUi.addActor(image);
-    }
-
-
-    private void setupTitle(float initialDelay) {
-        Table titleTable = new Table();
-        titleTable.setFillParent(true);
-
-        titleTable.left();
-
-        titleImage = new Image(skinCanyonBunny, "hello");
-        titleImage.setScale(1.25f);
-        titleTable.add(titleImage).padTop(45).padLeft(140);
-        textUi.addActor(titleTable);
-
-        registerAction(titleTable, Actions.sequence(
-                Actions.moveBy(-2000, 0, 0),
-                Actions.delay(initialDelay), Actions.moveBy(2000, 0, 0.75f, Interpolation.exp5Out)));
-
-    }
-
-
-    private void setupButtons(float initialDelay) {
-        Table menuTable = new Table();
-        menuTable.setFillParent(true);
-
-        Table menuSubTable = new Table();
-
-        // + Play Button
-        addButton(menuSubTable, skinCanyonBunny, "play", initialDelay + 0.15f * 1).addListener(new ChangeListener() {
-            @Override
-            public void changed(ChangeEvent event, Actor actor) {
-                game.setScreen(new GameScreen(game));
-                textUi.getViewport().apply();
-                textUi.draw();
+        if (Gdx.input.isKeyJustPressed(Input.Keys.BACK) || Gdx.input.isKeyPressed(Input.Keys.ESCAPE)) {
+            paused = true;
+            if (pauseCheck) {
+                PauseAdd();
+                pauseCheck = false;
             }
-        });
-        // + Options Button
-        addButton(menuSubTable, skinCanyonBunny, "options", initialDelay + 0.15f * 2).addListener(new ChangeListener() {
-            @Override
-            public void changed(ChangeEvent event, Actor actor) {
-                setupToolsMenu();
-            }
-        });
-        // + Exit Button
-        addButton(menuSubTable, skinCanyonBunny, "exit", initialDelay + 0.15f * 3).addListener(new ChangeListener() {
-            @Override
-            public void changed(ChangeEvent event, Actor actor) {
-                Gdx.app.exit();
-            }
-        });
-
-
-        menuTable.right();
-        menuTable.add(menuSubTable);
-        textUi.addActor(menuTable);
-
+        }
     }
-
-    private Button addButton(Table table, Skin typee, String name, float initialDelay) {
-        Table button = new Button(typee, name);
-        table.add(button).padRight(95).padTop(20).row();
-
-        registerAction(button, Actions.sequence(
-                Actions.visible(false),
-                Actions.moveBy(1000, 0, 0.25f),
-                Actions.delay(initialDelay),
-                Actions.visible(true),
-                Actions.moveBy(-1000, 0, 0.25f, Interpolation.exp5Out)));
-
-        return (Button) button;
-    }
-
-    private void setupToolsMenu() {
-        Gdx.input.setInputProcessor(textTools);
-        toolsMenu.addTools(textTools, backgroundTools, textUi);
-    }
-
-
-    private void registerAction(Actor actor, Action action) {
-        animationActions.add(action);
-        actor.addAction(action);
-    }
-
 
 
     @Override
     public void show() {
-        Gdx.input.setInputProcessor(textUi);
+        pauseMenu = new PauseMenu();
+        toolsMenu = new ToolsMenu();
 
-        setupUi();
-        resize(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        stagePause = pauseMenu.stage;
+
+        skin = new Skin(
+                Gdx.files.internal(Constants.SKIN_HUD_UI),
+                new TextureAtlas(Constants.TEXTURE_ATLAS_HUD_UI));
+
+        GamePreferences.instance.load();
+        worldController = new MenuController(game);
+        worldRenderer = new MenuRenderer(worldController);
+        Gdx.input.setCatchKey(Input.Keys.BACK, true);
+
+        addGui();
     }
 
-    @Override
-    public void render(float deltaTime) {
-        Gdx.gl.glClearColor(0.706f, 0.851f, 0.847f, 1);
-        Gdx.gl.glClear(GL30.GL_COLOR_BUFFER_BIT);
+    private Table addGui() {
+        Table table = new Table();
+        table.setFillParent(true);
+        table.left();
+        table.top();
 
-        if (Gdx.input.isButtonJustPressed(0)) {
-            for (Action action : animationActions) {
-                //noinspection StatementWithEmptyBody
-                while (!action.act(100))
-                    ; // finish all animations, needs multiple calls since a sequence only steps the current action
+        final Button pauseButton = new Button(skin, "pauseButton");
+        table.add(pauseButton).padTop(20).padLeft(20);
+        pauseButton.addListener(new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                paused = true;
+                if (pauseCheck) {
+                    PauseAdd();
+                    pauseCheck = false;
+                }
             }
-        }
-
-        drawStage(backgroundUi, deltaTime);
-        drawStage(textUi, deltaTime);
-        drawStage(backgroundTools, deltaTime);
-        drawStage(textTools, deltaTime);
+        });
+        stageGui.addActor(table);
+        return table;
     }
-    private void drawStage(Stage stage, Float deltaTime) {
-        stage.getViewport().apply();
-        stage.act(deltaTime);
-        stage.draw();
+
+
+    private void PauseAdd() {
+        pauseMenu.addPauseMenu();
+
+        pauseMenu.addResumeButton().addListener(new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                pauseMenu.background.setVisible(false);
+                pauseMenu.PauseTable.setVisible(false);
+                paused = false;
+                pauseCheck = true;
+                Gdx.input.setInputProcessor(stageGui);
+            }
+        });
+
+        pauseMenu.addtoolsButton().addListener(new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                toolsMenu.addTools(stagePause);
+            }
+        });
+
+        pauseMenu.addExitButton();
     }
 
 
     @Override
     public void resize(int width, int height) {
-        backgroundUi.getViewport().update(width, height, true);
-        textUi.getViewport().update(width, height, true);
-        backgroundTools.getViewport().update(width, height, true);
-        textTools.getViewport().update(width, height, true);
+        worldRenderer.resize(width, height);
+        stageGui.getViewport().update(width, height, true);
+        pauseMenu.resize(width, height);
+        toolsMenu.resize(width, height);
     }
 
     @Override
     public void hide() {
-        Dispose();
+        worldRenderer.dispose();
+        stageGui.dispose();
+        pauseMenu.dispose();
+        toolsMenu.dispose();
+        Gdx.input.setCatchKey(Input.Keys.BACK, false);
     }
+
 
     @Override
     public void pause() {
-
+        if (pauseCheck) {
+            PauseAdd();
+            pauseCheck = false;
+        }
+        paused = true;
     }
 
     @Override
-    public void dispose() {
-        Dispose();
-    }
-
-    private void Dispose() {
-        textUi.dispose();
-        backgroundUi.dispose();
-        skinCanyonBunny.dispose();
-        backgroundTools.dispose();
-        textTools.dispose();
+    public void resume() {
+        super.resume();
     }
 }

@@ -8,8 +8,8 @@ LUDZIK TEST
   rotate: false
   xy: 1172, 176
   size: 72, 124
-  orig: 88, 136
-  offset: 8, 8
+  orig: 72, 124
+  offset: 0, 0
   index: -1
 chmura2
   rotate: false

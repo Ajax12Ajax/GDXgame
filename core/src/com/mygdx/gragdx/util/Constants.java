@@ -21,11 +21,15 @@ public class Constants {
     //Menu Start atlas
     public static final String TEXTURE_ATLAS_UI = "images/images-ui.atlas";
     //Menu Start json
-    public static final String SKIN_STARTMENU_UI = "images/images-ui.json";
+    public static final String SKIN_MENU_UI = "images/images-ui.json";
 
-    public static final String TEXTURE_ATLAS_LIBGDX_UI = "images/tools.atlas";
+    public static final String TEXTURE_ATLAS_TOOLS_UI = "images/tools.atlas";
 
-    public static final String SKIN_LIBGDX_UI = "images/tools.json";
+    public static final String SKIN_TOOLS_UI = "images/tools.json";
+
+    public static final String TEXTURE_ATLAS_HUD_UI = "images/Gui.atlas";
+
+    public static final String SKIN_HUD_UI = "images/Gui.json";
     // Game preferences file
     public static final String PREFERENCES = "canyonbunny.prefs";
 }

@@ -16,7 +16,7 @@ public class WorldRenderer implements Disposable {
     private SpriteBatch batch;
     private final WorldController worldController;
 
-    public WorldRenderer(WorldController worldController) {
+    public WorldRenderer(com.mygdx.gragdx.game.WorldController worldController) {
         this.worldController = worldController;
         init();
     }
@@ -64,15 +64,15 @@ public class WorldRenderer implements Disposable {
     private void renderGuiScore (SpriteBatch batch) {
         float x = -15;
         float y = -25;
-        batch.draw(Assets.instance.point.pointa, x, y, 50, 50, 80, 80, 0.35f, -0.35f, 0);
-        Assets.instance.fonts.defaultBig.draw(batch, "" + worldController.score, x + 75, y + 42);    }
+        batch.draw(com.mygdx.gragdx.game.Assets.instance.point.pointa, x, y, 50, 50, 80, 80, 0.35f, -0.35f, 0);
+        com.mygdx.gragdx.game.Assets.instance.fonts.defaultBig.draw(batch, "" + worldController.score, x + 75, y + 42);    }
 
     private void renderGuiExtraLive (SpriteBatch batch) {
         float x = cameraGUI.viewportWidth - 20 - Constants.LIVES_START * 50;
         float y = -15;
         for (int i = 0; i < Constants.LIVES_START; i++) {
             if (worldController.lives <= i) batch.setColor(0.5f, 0.5f, 0.5f, 0.5f);
-            batch.draw(Assets.instance.test.head, x + i * 40, y, 50, 50, 70, 100, 0.35f, -0.35f, 0);
+            batch.draw(com.mygdx.gragdx.game.Assets.instance.test.head, x + i * 40, y, 50, 50, 70, 100, 0.35f, -0.35f, 0);
             batch.setColor(1, 1, 1, 1);
         }
     }
@@ -81,7 +81,7 @@ public class WorldRenderer implements Disposable {
         float x = cameraGUI.viewportWidth - 55;
         float y = cameraGUI.viewportHeight - 15;
         int fps = Gdx.graphics.getFramesPerSecond();
-        BitmapFont fpsFont = Assets.instance.fonts.defaultNormal;
+        BitmapFont fpsFont = com.mygdx.gragdx.game.Assets.instance.fonts.defaultNormal;
         if (fps >= 45) {
             // 45 or more FPS show up in green
             fpsFont.setColor(0, 1, 0, 1);
@@ -101,7 +101,7 @@ public class WorldRenderer implements Disposable {
         float x = cameraGUI.viewportWidth / 2;
         float y = cameraGUI.viewportHeight / 2;
         if (worldController.isGameOver()) {
-            BitmapFont fontGameOver = Assets.instance.fonts.defaultBig;
+            BitmapFont fontGameOver = com.mygdx.gragdx.game.Assets.instance.fonts.defaultBig;
             fontGameOver.setColor(1, 0, 0, 1);
             fontGameOver.draw(batch, "GAME OVER", x / 1, y / 1);
             fontGameOver.setColor(1, 1, 1, 1);
