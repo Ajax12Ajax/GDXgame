@@ -107,6 +107,8 @@ public class PauseMenu {
     public void dispose(){
         stageBackground.dispose();
         stage.dispose();
+        skinPause.dispose();
+        skinBackground.dispose();
     }
 
     public void draw(float deltaTime){

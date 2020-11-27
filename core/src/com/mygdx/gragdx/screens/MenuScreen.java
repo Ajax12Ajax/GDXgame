@@ -31,7 +31,6 @@ public class MenuScreen extends AbstractGameScreen {
     public boolean paused;
     private boolean pauseCheck = true;
 
-    Stage stagePause;
     public Level level;
 
 
@@ -75,8 +74,6 @@ public class MenuScreen extends AbstractGameScreen {
     public void show() {
         pauseMenu = new PauseMenu();
         toolsMenu = new ToolsMenu();
-
-        stagePause = pauseMenu.stage;
 
         skin = new Skin(
                 Gdx.files.internal(Constants.SKIN_HUD_UI),
@@ -133,7 +130,7 @@ public class MenuScreen extends AbstractGameScreen {
         pauseMenu.addtoolsButton().addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                toolsMenu.addTools(stagePause);
+                toolsMenu.addTools(pauseMenu.stage);
             }
         });
 
@@ -155,6 +152,7 @@ public class MenuScreen extends AbstractGameScreen {
         stageGui.dispose();
         pauseMenu.dispose();
         toolsMenu.dispose();
+        skin.dispose();
         Gdx.input.setCatchKey(Input.Keys.BACK, false);
     }
 

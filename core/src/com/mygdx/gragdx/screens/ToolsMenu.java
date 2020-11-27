@@ -185,6 +185,7 @@ public class ToolsMenu {
     public void dispose(){
         stageBackground.dispose();
         stage.dispose();
+        skinTools.dispose();
     }
 
     public void draw(float deltaTime){
