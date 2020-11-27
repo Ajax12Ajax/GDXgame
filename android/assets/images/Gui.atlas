@@ -1,20 +1,41 @@
 
 Gui.png
-size: 128,64
+size: 512,128
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-pauseButton
+leftArrow
   rotate: false
   xy: 2, 2
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+pauseButton
+  rotate: false
+  xy: 341, 57
   size: 60, 56
   orig: 60, 56
   offset: 0, 0
   index: -1
 pauseButtonP
   rotate: false
-  xy: 64, 2
+  xy: 403, 57
   size: 60, 56
   orig: 60, 56
+  offset: 0, 0
+  index: -1
+rightArrow
+  rotate: false
+  xy: 115, 2
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+upArrow
+  rotate: false
+  xy: 228, 2
+  size: 111, 111
+  orig: 111, 111
   offset: 0, 0
   index: -1

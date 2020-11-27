@@ -2,7 +2,12 @@ package com.mygdx.gragdx.menu;
 
 import com.badlogic.gdx.*;
 import com.badlogic.gdx.math.Rectangle;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Button;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.mygdx.gragdx.game.objects.Test;
 import com.mygdx.gragdx.menu.objects.Rock;
 import com.mygdx.gragdx.screens.MenuScreen;
@@ -17,6 +22,8 @@ public class MenuController extends InputAdapter {
 
     public CameraHelper cameraHelper;
     public MenuScreen menuScreen;
+
+    boolean leftPressed, rightPressed;
 
     // Rectangles for collision detection
     private Rectangle playerCollision = new Rectangle();
@@ -35,6 +42,7 @@ public class MenuController extends InputAdapter {
         cameraHelper = new CameraHelper();
         initLevel();
     }
+
     private void initLevel() {
         level = new Level(Constants.LEVEL_01);
     }
@@ -48,6 +56,7 @@ public class MenuController extends InputAdapter {
         testCollisions();
         level.mountains.updateScrollPosition(cameraHelper.getPosition());
         cameraMove();
+
     }
 
     private void cameraMove() {
@@ -122,6 +131,45 @@ public class MenuController extends InputAdapter {
     }
 
 
+    public Table addController(Stage stage, Skin skin) {
+        Table table = new Table();
+        table.setFillParent(true);
+        table.bottom();
+        table.right();
+
+        Button leftButton = new Button(skin, "leftArrow");
+        table.add(leftButton).padBottom(50).padRight(60);
+        leftButton.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                leftPressed = true;
+                return true;
+            }
+
+            @Override
+            public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
+                leftPressed = false;
+            }
+        });
+
+        Button rightButton = new Button(skin, "rightArrow");
+        table.add(rightButton).padBottom(50).padRight(50);
+        rightButton.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                rightPressed = true;
+                return true;
+            }
+
+            @Override
+            public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
+                rightPressed = false;
+            }
+        });
+
+        stage.addActor(table);
+        return table;
+    }
 
     private void handleDebugInput(float deltaTime) {
         if (Gdx.app.getType() != Application.ApplicationType.Desktop) return;
@@ -138,15 +186,10 @@ public class MenuController extends InputAdapter {
 
     private void handleInputGame() {
         // Player Movement
-        if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+        if (Gdx.input.isKeyPressed(Input.Keys.LEFT) || leftPressed) {
             level.test.velocity.x = -level.test.terminalVelocity.x;
-        } else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT) || Gdx.input.isTouched()) {
+        } else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT) || rightPressed) {
             level.test.velocity.x = level.test.terminalVelocity.x;
-        } else {
-            // Execute auto-forward movement on non-desktop platform
-            if (Gdx.app.getType() != Application.ApplicationType.Desktop) {
-                //level.test.velocity.x = level.test.terminalVelocity.x;
-            }
         }
     }
 }

@@ -12,6 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
+import com.mygdx.gragdx.menu.Level;
 import com.mygdx.gragdx.menu.MenuController;
 import com.mygdx.gragdx.menu.MenuRenderer;
 import com.mygdx.gragdx.util.Constants;
@@ -31,6 +32,7 @@ public class MenuScreen extends AbstractGameScreen {
     private boolean pauseCheck = true;
 
     Stage stagePause;
+    public Level level;
 
 
     public MenuScreen(Game game) {
@@ -106,6 +108,9 @@ public class MenuScreen extends AbstractGameScreen {
                 }
             }
         });
+
+        worldController.addController(stageGui, skin);
+
         stageGui.addActor(table);
         return table;
     }
