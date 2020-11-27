@@ -38,7 +38,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1af4aba8-37f5-4fb2-a904-999ee3dd0114" name="Default Changelist" comment="GDXgame | Creation">
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/MenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/MenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Gui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Gui.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Gui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Gui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/app_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/app_classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/Gui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/Gui.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/Gui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/Gui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/.transforms/6ec4b5fbbd384017bade75fa797bfbca/core-1.0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/.transforms/6ec4b5fbbd384017bade75fa797bfbca/core-1.0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/ToolsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/ToolsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/Gui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/Gui.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/Gui.png" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/Gui.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +78,7 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="R58N134HYBH" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -148,7 +176,7 @@
       <command value="graGDX.android" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.desktop">
+  <component name="RunManager" selected="Android App.graGDX.android">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -476,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606511425111</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="GDXgame | Creation">
+      <created>1606511859819</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1606511859819</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -591,30 +626,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1066" y="450" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1603488256563" />
-    <state width="2517" height="153" key="GridCell.Tab.0.bottom" timestamp="1606509493551">
+    <state width="2517" height="153" key="GridCell.Tab.0.bottom" timestamp="1606512382233">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.bottom/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.bottom/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="153" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606509493551" />
-    <state width="2517" height="153" key="GridCell.Tab.0.center" timestamp="1606509493550">
+    <state width="2517" height="153" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606512382233" />
+    <state width="2517" height="153" key="GridCell.Tab.0.center" timestamp="1606512382232">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.center/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.center/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="153" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606509493550" />
-    <state width="2517" height="153" key="GridCell.Tab.0.left" timestamp="1606509493550">
+    <state width="2517" height="153" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606512382232" />
+    <state width="2517" height="153" key="GridCell.Tab.0.left" timestamp="1606512382232">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.left/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.left/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="153" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606509493550" />
-    <state width="2517" height="153" key="GridCell.Tab.0.right" timestamp="1606509493550">
+    <state width="2517" height="153" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606512382232" />
+    <state width="2517" height="153" key="GridCell.Tab.0.right" timestamp="1606512382233">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="234" key="GridCell.Tab.0.right/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
     <state width="1221" height="163" key="GridCell.Tab.0.right/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="153" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606509493550" />
+    <state width="2517" height="153" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606512382233" />
     <state width="2517" height="255" key="GridCell.Tab.1.bottom" timestamp="1605603040777">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -648,10 +683,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="498" height="477" key="SwitcherDM/0.0.2560.1400@0.0.2560.1400" timestamp="1606205665476" />
-    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2" timestamp="1606511457655">
+    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2" timestamp="1606511896895">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606511457655" />
+    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606511896895" />
     <state x="1494" y="451" key="caller.chooser.dialog" timestamp="1600888120099">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

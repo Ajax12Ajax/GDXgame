@@ -13,16 +13,16 @@ leftArrow
   index: -1
 pauseButton
   rotate: false
-  xy: 341, 57
-  size: 60, 56
-  orig: 60, 56
+  xy: 341, 48
+  size: 70, 65
+  orig: 70, 65
   offset: 0, 0
   index: -1
 pauseButtonP
   rotate: false
-  xy: 403, 57
-  size: 60, 56
-  orig: 60, 56
+  xy: 413, 48
+  size: 70, 65
+  orig: 70, 65
   offset: 0, 0
   index: -1
 rightArrow
