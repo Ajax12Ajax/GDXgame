@@ -89,10 +89,3 @@ vp
   orig: 94, 60
   offset: 6, 4
   index: -1
-white
-  rotate: false
-  xy: 8, 13
-  size: 1, 1
-  orig: 1, 1
-  offset: 0, 0
-  index: -1

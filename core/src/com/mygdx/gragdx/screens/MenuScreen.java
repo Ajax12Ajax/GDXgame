@@ -7,9 +7,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.ui.Button;
-import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.mygdx.gragdx.menu.Level;
@@ -105,6 +103,13 @@ public class MenuScreen extends AbstractGameScreen {
                 }
             }
         });
+
+        Image moneyImage = new Image(skin, "money");
+        table.add(moneyImage).padLeft(15).padTop(20);
+
+        Label moneyText = new Label("2137", skin);
+        table.add(moneyText).padLeft(-89).padTop(20);
+
 
         worldController.addController(stageGui, skin);
 
