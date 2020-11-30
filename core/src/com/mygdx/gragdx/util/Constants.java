@@ -19,17 +19,17 @@ public class Constants {
     // Delay after game over
     public static final float TIME_DELAY_GAME_OVER = 3;
     //Menu Start atlas
-    public static final String TEXTURE_ATLAS_UI = "images/images-ui.atlas";
+    public static final String TEXTURE_ATLAS_UI = "images/menuTexture.atlas";
     //Menu Start json
-    public static final String SKIN_MENU_UI = "images/images-ui.json";
+    public static final String SKIN_MENU_UI = "images/menuTexture.json";
 
-    public static final String TEXTURE_ATLAS_TOOLS_UI = "images/tools.atlas";
+    public static final String TEXTURE_ATLAS_TOOLS_UI = "images/toolsTexture.atlas";
 
-    public static final String SKIN_TOOLS_UI = "images/tools.json";
+    public static final String SKIN_TOOLS_UI = "images/toolsTexture.json";
 
-    public static final String TEXTURE_ATLAS_HUD_UI = "images/Gui.atlas";
+    public static final String TEXTURE_ATLAS_HUD_UI = "images/guiTexture.atlas";
 
-    public static final String SKIN_HUD_UI = "images/Gui.json";
+    public static final String SKIN_HUD_UI = "images/guiTexture.json";
     // Game preferences file
     public static final String PREFERENCES = "canyonbunny.prefs";
 }

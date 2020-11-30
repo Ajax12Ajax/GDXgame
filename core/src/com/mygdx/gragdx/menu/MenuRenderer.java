@@ -67,7 +67,7 @@ public class MenuRenderer implements Disposable {
     }
 
     private void renderGuiFpsCounter (SpriteBatch batch) {
-        float x = cameraGUI.viewportWidth - 1080;
+        float x = cameraGUI.viewportWidth - 700;
         float y = cameraGUI.viewportHeight - 495;
         int fps = Gdx.graphics.getFramesPerSecond();
         BitmapFont fpsFont = com.mygdx.gragdx.game.Assets.instance.fonts.defaultNormal;

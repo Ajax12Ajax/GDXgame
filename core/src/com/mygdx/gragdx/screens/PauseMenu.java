@@ -19,7 +19,6 @@ public class PauseMenu {
     final Stage stage = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
 
     private Skin skinPause;
-    private Skin skinBackground;
 
     public Table PauseTable;
 
@@ -36,10 +35,6 @@ public class PauseMenu {
                 Gdx.files.internal(Constants.SKIN_MENU_UI),
                 new TextureAtlas(Constants.TEXTURE_ATLAS_UI));
 
-        skinBackground = new Skin(
-                Gdx.files.internal(Constants.SKIN_TOOLS_UI),
-                new TextureAtlas(Constants.TEXTURE_ATLAS_TOOLS_UI));
-
         // + Background
         addBackground();
 
@@ -52,7 +47,7 @@ public class PauseMenu {
 
     private Image addBackground() {
         // + Background
-        background = new Image(skinBackground, "background");
+        background = new Image(skinPause, "background");
         background.setVisible(true);
 
         stageBackground.addActor(background);
@@ -108,7 +103,6 @@ public class PauseMenu {
         stageBackground.dispose();
         stage.dispose();
         skinPause.dispose();
-        skinBackground.dispose();
     }
 
     public void draw(float deltaTime){

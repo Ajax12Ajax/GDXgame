@@ -23,6 +23,7 @@ public class ToolsMenu {
     final Stage stage = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
 
     private Skin skinTools;
+    private Skin skinBackground;
 
     private Table tableTools;
 
@@ -43,6 +44,10 @@ public class ToolsMenu {
                 Gdx.files.internal(Constants.SKIN_TOOLS_UI),
                 new TextureAtlas(Constants.TEXTURE_ATLAS_TOOLS_UI));
 
+        skinBackground = new Skin(
+                Gdx.files.internal(Constants.SKIN_MENU_UI),
+                new TextureAtlas(Constants.TEXTURE_ATLAS_UI));
+
         // + Background
         addBackground();
 
@@ -59,7 +64,7 @@ public class ToolsMenu {
 
     private Image addBackground() {
         // + Background
-        background = new Image(skinTools, "background");
+        background = new Image(skinBackground, "background");
         background.setVisible(true);
 
         registerAction(background, Actions.sequence(
@@ -79,7 +84,7 @@ public class ToolsMenu {
         table.left();
 
         // + Background Button
-        backgroundButton = new Button(skinTools, "background");
+        backgroundButton = new Button(skinBackground, "background");
         backgroundButton.setScale(55);
         backgroundButton.setRotation(-90);
         backgroundButton.setColor(1, 1, 1, 0);

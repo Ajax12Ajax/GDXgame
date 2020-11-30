@@ -1,0 +1,83 @@
+
+menuTexture.png
+size: 2048,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 2, 9
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+backgroundStart
+  rotate: false
+  xy: 804, 9
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+exit-dn
+  rotate: false
+  xy: 1890, 434
+  size: 147, 55
+  orig: 180, 68
+  offset: 20, 7
+  index: -1
+exit-up
+  rotate: false
+  xy: 1606, 2
+  size: 162, 60
+  orig: 200, 75
+  offset: 23, 8
+  index: -1
+hello
+  rotate: false
+  xy: 1606, 244
+  size: 240, 60
+  orig: 280, 75
+  offset: 22, 8
+  index: -1
+play-dn
+  rotate: false
+  xy: 1606, 64
+  size: 178, 58
+  orig: 180, 71
+  offset: 1, 7
+  index: -1
+play-up
+  rotate: false
+  xy: 1606, 124
+  size: 186, 60
+  orig: 190, 75
+  offset: 2, 8
+  index: -1
+resume-dn
+  rotate: false
+  xy: 1606, 368
+  size: 270, 59
+  orig: 275, 71
+  offset: 1, 6
+  index: -1
+resume-up
+  rotate: false
+  xy: 1606, 429
+  size: 282, 60
+  orig: 290, 75
+  offset: 2, 8
+  index: -1
+tools-dn
+  rotate: false
+  xy: 1606, 186
+  size: 234, 56
+  orig: 240, 69
+  offset: 3, 7
+  index: -1
+tools-up
+  rotate: false
+  xy: 1606, 306
+  size: 252, 60
+  orig: 260, 75
+  offset: 4, 8
+  index: -1

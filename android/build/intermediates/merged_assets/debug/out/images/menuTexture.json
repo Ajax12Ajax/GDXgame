@@ -1,0 +1,13 @@
+{
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	play: { down: play-dn, up: play-up },
+    options: { down: tools-dn, up: tools-up },
+    resume: {down: resume-dn, up: resume-up}
+    exit: { down: exit-dn, up: exit-up }
+    background: { down: background, up: background }
+},
+com.badlogic.gdx.scenes.scene2d.ui.Image: {
+    backgroundStart: { drawable: backgroundStart },
+    logo: { drawable: hello },
+},
+}
