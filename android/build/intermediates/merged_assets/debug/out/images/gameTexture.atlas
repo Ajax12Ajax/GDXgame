@@ -1,0 +1,90 @@
+
+gameTexture.png
+size: 1806,813
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+castle
+  rotate: false
+  xy: 2, 311
+  size: 800, 500
+  orig: 800, 500
+  offset: 0, 0
+  index: -1
+clouds
+  rotate: false
+  xy: 1596, 276
+  size: 200, 96
+  orig: 227, 110
+  offset: 11, 7
+  index: -1
+clouds2
+  rotate: false
+  xy: 1596, 210
+  size: 152, 64
+  orig: 173, 81
+  offset: 9, 7
+  index: -1
+clouds5
+  rotate: false
+  xy: 1262, 50
+  size: 168, 88
+  orig: 183, 107
+  offset: 8, 9
+  index: -1
+gury1
+  rotate: false
+  xy: 804, 586
+  size: 1000, 225
+  orig: 1000, 225
+  offset: 0, 0
+  index: -1
+gury2
+  rotate: false
+  xy: 804, 374
+  size: 1000, 210
+  orig: 1000, 225
+  offset: 0, 0
+  index: -1
+gym
+  rotate: false
+  xy: 804, 140
+  size: 656, 232
+  orig: 656, 232
+  offset: 0, 0
+  index: -1
+player
+  rotate: false
+  xy: 1596, 96
+  size: 77, 112
+  orig: 77, 112
+  offset: 0, 0
+  index: -1
+rock
+  rotate: false
+  xy: 1462, 12
+  size: 132, 360
+  orig: 132, 360
+  offset: 0, 0
+  index: -1
+smith
+  rotate: false
+  xy: 2, 37
+  size: 656, 272
+  orig: 656, 272
+  offset: 0, 0
+  index: -1
+wizard
+  rotate: false
+  xy: 660, 2
+  size: 600, 136
+  orig: 600, 136
+  offset: 0, 0
+  index: -1
+woda
+  rotate: false
+  xy: 660, 144
+  size: 32, 165
+  orig: 32, 165
+  offset: 0, 0
+  index: -1

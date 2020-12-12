@@ -1,8 +1,8 @@
 package com.mygdx.gragdx.screens;
 
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
+import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.Actor;
@@ -10,7 +10,6 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
-import com.mygdx.gragdx.menu.Level;
 import com.mygdx.gragdx.menu.MenuController;
 import com.mygdx.gragdx.menu.MenuRenderer;
 import com.mygdx.gragdx.util.Constants;
@@ -19,8 +18,8 @@ import com.mygdx.gragdx.util.GamePreferences;
 public class MenuScreen extends AbstractGameScreen {
     private static final String TAG = MenuScreen.class.getName();
 
-    private final Stage stageGui = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
-    private Skin skin;
+    public final Stage stageGui = new Stage(new ExtendViewport(Constants.VIEWPORT_GUI_WIDTH, Constants.VIEWPORT_GUI_HEIGHT));
+    public Skin skin;
 
     private MenuController worldController;
     private MenuRenderer worldRenderer;
@@ -29,10 +28,8 @@ public class MenuScreen extends AbstractGameScreen {
     public boolean paused;
     private boolean pauseCheck = true;
 
-    public Level level;
 
-
-    public MenuScreen(Game game) {
+    public MenuScreen(DirectedGame game) {
         super(game);
     }
 
@@ -164,15 +161,24 @@ public class MenuScreen extends AbstractGameScreen {
 
     @Override
     public void pause() {
-        if (pauseCheck) {
-            PauseAdd();
-            pauseCheck = false;
+        Boolean first = false;
+        if (first) {
+            first = true;
+            if (pauseCheck) {
+                PauseAdd();
+                pauseCheck = false;
+            }
+            paused = true;
         }
-        paused = true;
     }
 
     @Override
     public void resume() {
         super.resume();
+    }
+
+    @Override
+    public InputProcessor getInputProcessor () {
+        return worldController;
     }
 }

@@ -2,15 +2,21 @@ package com.mygdx.gragdx.menu;
 
 import com.badlogic.gdx.*;
 import com.badlogic.gdx.math.Rectangle;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.mygdx.gragdx.game.objects.Test;
-import com.mygdx.gragdx.menu.objects.Rock;
+import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+import com.mygdx.gragdx.game.objects.Player;
+import com.mygdx.gragdx.menu.objects.*;
+import com.mygdx.gragdx.screens.DirectedGame;
+import com.mygdx.gragdx.screens.GameScreen;
 import com.mygdx.gragdx.screens.MenuScreen;
+import com.mygdx.gragdx.screens.transitins.ScreenTransition;
+import com.mygdx.gragdx.screens.transitins.ScreenTransitionFade;
 import com.mygdx.gragdx.util.CameraHelper;
 import com.mygdx.gragdx.util.Constants;
 
@@ -18,7 +24,7 @@ public class MenuController extends InputAdapter {
     private static final String TAG = MenuController.class.getName();
 
     public Level level;
-    private Game game;
+    private DirectedGame game;
 
     public CameraHelper cameraHelper;
     public MenuScreen menuScreen;
@@ -29,9 +35,18 @@ public class MenuController extends InputAdapter {
     private Rectangle playerCollision = new Rectangle();
     private Rectangle rockCollision = new Rectangle();
     private Rectangle borderCollision = new Rectangle();
+    private Rectangle castleCollision = new Rectangle();
+    private Rectangle smithCollision = new Rectangle();
+    private Rectangle armorCollision = new Rectangle();
+    private Rectangle gymCollision = new Rectangle();
+    private Rectangle wizardCollision = new Rectangle();
+
+    Button buttonUse;
+
+    String overlaps;
 
 
-    public MenuController(Game game) {
+    public MenuController (DirectedGame game) {
         this.game = game;
         init();
     }
@@ -40,10 +55,6 @@ public class MenuController extends InputAdapter {
     private void init() {
         menuScreen = new MenuScreen(game);
         cameraHelper = new CameraHelper();
-        initLevel();
-    }
-
-    private void initLevel() {
         level = new Level(Constants.LEVEL_01);
     }
 
@@ -56,18 +67,17 @@ public class MenuController extends InputAdapter {
         testCollisions();
         level.mountains.updateScrollPosition(cameraHelper.getPosition());
         cameraMove();
-
     }
 
     private void cameraMove() {
-        float x = level.test.position.x + (level.test.bounds.width / 2);
-        float y = level.test.position.y + (level.test.bounds.height / 2);
+        float x = level.player.position.x + (level.player.bounds.width / 2);
+        float y = level.player.position.y + (level.player.bounds.height / 2);
         cameraHelper.setPosition(x, y);
     }
 
 
     public void testCollisions() {
-        playerCollision.set(level.test.position.x, level.test.position.y, level.test.bounds.width, level.test.bounds.height);
+        playerCollision.set(level.player.position.x, level.player.position.y, level.player.bounds.width, level.player.bounds.height);
         // Test collision: Player <-> Rocks
         for (Rock rock : level.rocks) {
             rockCollision.set(rock.position.x, rock.position.y, rock.bounds.width, rock.bounds.height);
@@ -76,7 +86,7 @@ public class MenuController extends InputAdapter {
                 onCollisionPlayerWithRock(rock);
             }
         }
-        borderCollision.set(5, -3, 1, 50);
+        borderCollision.set(5.1f, -3, 1, 50);
 
         if (playerCollision.overlaps(borderCollision)) {
             onCollisionPlayerWithBorder();
@@ -87,10 +97,43 @@ public class MenuController extends InputAdapter {
         if (playerCollision.overlaps(borderCollision)) {
             onCollisionPlayerWithBorder();
         }
+
+        Castle castle = level.castle;
+        castleCollision.set(castle.position.x, castle.position.y, castle.bounds.width, castle.bounds.height);
+
+        Smith smith = level.smith;
+        smithCollision.set(smith.position.x + 0.8f, smith.position.y, smith.bounds.width - 4, smith.bounds.height);
+        armorCollision.set(smith.position.x + 4.2f, smith.position.y, smith.bounds.width - 4.5f, smith.bounds.height);
+
+        Gym gym = level.gym;
+        gymCollision.set(gym.position.x + 0.6f, gym.position.y, gym.bounds.width - 1.5f, gym.bounds.height);
+
+        Wizard wizard = level.wizard;
+        wizardCollision.set(wizard.position.x, wizard.position.y, wizard.bounds.width - 3.4f, wizard.bounds.height);
+
+
+        if (playerCollision.overlaps(castleCollision)) {
+            overlaps = "castle";
+            buttonUse.setVisible(true);
+        } else if (playerCollision.overlaps(smithCollision)) {
+            overlaps = "smith";
+            buttonUse.setVisible(true);
+        } else if (playerCollision.overlaps(armorCollision)) {
+            overlaps = "armor";
+            buttonUse.setVisible(true);
+        } else if (playerCollision.overlaps(gymCollision)) {
+            overlaps = "gym";
+            buttonUse.setVisible(true);
+        }  else if (playerCollision.overlaps(wizardCollision)) {
+            overlaps = "wizard";
+            buttonUse.setVisible(true);
+        } else {
+            buttonUse.setVisible(false);
+        }
     }
 
     public void onCollisionPlayerWithBorder() {
-        Test player = level.test;
+        Player player = level.player;
         float heightDifference = Math.abs(player.position.y - (borderCollision.getX() + borderCollision.getHeight()));
         if (heightDifference > 0.25f) {
             boolean hitRightEdge = player.position.x > (borderCollision.getX() + borderCollision.getWidth() / 2.0f);
@@ -104,7 +147,7 @@ public class MenuController extends InputAdapter {
     }
 
     public void onCollisionPlayerWithRock(Rock rock) {
-        Test player = level.test;
+        Player player = level.player;
         float heightDifference = Math.abs(player.position.y - (rock.position.y + rock.bounds.height));
         if (heightDifference > 0.25f) {
             boolean hitRightEdge = player.position.x > (rock.position.x + rock.bounds.width / 2.0f);
@@ -122,7 +165,7 @@ public class MenuController extends InputAdapter {
             case FALLING:
             case JUMP_FALLING:
                 player.position.y = rock.position.y + player.bounds.height + player.origin.y;
-                player.jumpState = Test.JUMP_STATE.GROUNDED;
+                player.jumpState = Player.JUMP_STATE.GROUNDED;
                 break;
             case JUMP_RISING:
                 player.position.y = rock.position.y + player.bounds.height + player.origin.y;
@@ -132,13 +175,13 @@ public class MenuController extends InputAdapter {
 
 
     public Table addController(Stage stage, Skin skin) {
-        Table table = new Table();
-        table.setFillParent(true);
-        table.bottom();
-        table.right();
+        Table tableRight = new Table();
+        tableRight.setFillParent(true);
+        tableRight.bottom();
+        tableRight.left();
 
         Button leftButton = new Button(skin, "leftArrow");
-        table.add(leftButton).padBottom(50).padRight(60);
+        tableRight.add(leftButton).padBottom(50).padLeft(50);
         leftButton.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
@@ -153,7 +196,7 @@ public class MenuController extends InputAdapter {
         });
 
         Button rightButton = new Button(skin, "rightArrow");
-        table.add(rightButton).padBottom(50).padRight(50);
+        tableRight.add(rightButton).padBottom(50).padLeft(60);
         rightButton.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
@@ -167,8 +210,37 @@ public class MenuController extends InputAdapter {
             }
         });
 
-        stage.addActor(table);
-        return table;
+        Table tableLeft = new Table();
+        tableLeft.setFillParent(true);
+        tableLeft.bottom();
+        tableLeft.right();
+
+        buttonUse = new Button(skin, "rightArrow");
+        tableLeft.add(buttonUse).padBottom(50).padRight(50);
+        buttonUse.setVisible(false);
+        buttonUse.addListener(new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                switch (overlaps) {
+                    case "castle":
+                        ScreenTransition transition = ScreenTransitionFade.init(0.15f);
+                        game.setScreen(new GameScreen(game), transition);
+                        break;
+                    case "smith":
+                        break;
+                    case "armor":
+                        break;
+                    case "gym":
+                        break;
+                    case "wizard":
+                        break;
+                }
+            }
+        });
+
+        stage.addActor(tableRight);
+        stage.addActor(tableLeft);
+        return tableRight;
     }
 
     private void handleDebugInput(float deltaTime) {
@@ -187,9 +259,9 @@ public class MenuController extends InputAdapter {
     private void handleInputGame() {
         // Player Movement
         if (Gdx.input.isKeyPressed(Input.Keys.LEFT) || leftPressed) {
-            level.test.velocity.x = -level.test.terminalVelocity.x;
+            level.player.velocity.x = -level.player.terminalVelocity.x;
         } else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT) || rightPressed) {
-            level.test.velocity.x = level.test.terminalVelocity.x;
+            level.player.velocity.x = level.player.terminalVelocity.x;
         }
     }
 }

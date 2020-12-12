@@ -1,6 +1,6 @@
 
 menuTexture.png
-size: 2048,512
+size: 1919,491
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
@@ -20,7 +20,7 @@ backgroundStart
   index: -1
 exit-dn
   rotate: false
-  xy: 1890, 434
+  xy: 1770, 7
   size: 147, 55
   orig: 180, 68
   offset: 20, 7

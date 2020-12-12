@@ -1,6 +1,6 @@
 
 guiTexture.png
-size: 2048,128
+size: 1330,123
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
@@ -27,7 +27,7 @@ money
   index: -1
 pauseButton-dn
   rotate: false
-  xy: 1312, 56
+  xy: 1258, 2
   size: 70, 65
   orig: 70, 65
   offset: 0, 0

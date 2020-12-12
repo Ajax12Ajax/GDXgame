@@ -1,7 +1,7 @@
 package com.mygdx.gragdx.screens;
 
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.GL30;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Interpolation;
@@ -16,6 +16,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.FillViewport;
+import com.mygdx.gragdx.screens.transitins.ScreenTransition;
+import com.mygdx.gragdx.screens.transitins.ScreenTransitionFade;
 import com.mygdx.gragdx.util.Constants;
 
 import java.util.HashSet;
@@ -32,7 +34,7 @@ public class StartScreen extends AbstractGameScreen {
 
     private ToolsMenu toolsMenu;
 
-    public StartScreen(Game game) {
+    public StartScreen(DirectedGame game) {
         super(game);
     }
 
@@ -84,9 +86,8 @@ public class StartScreen extends AbstractGameScreen {
         addButton(menuSubTable, skin, "play", initialDelay + 0.15f * 1).addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                game.setScreen(new MenuScreen(game));
-                textUi.getViewport().apply();
-                textUi.draw();
+                ScreenTransition transition = ScreenTransitionFade.init(0.15f);
+                game.setScreen(new MenuScreen(game), transition);
             }
         });
         // + Options Button
@@ -139,8 +140,6 @@ public class StartScreen extends AbstractGameScreen {
 
     @Override
     public void show() {
-        Gdx.input.setInputProcessor(textUi);
-
         setupUi();
         resize(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
     }
@@ -196,5 +195,10 @@ public class StartScreen extends AbstractGameScreen {
         backgroundUi.dispose();
         skin.dispose();
         toolsMenu.dispose();
+    }
+
+    @Override
+    public InputProcessor getInputProcessor() {
+        return textUi;
     }
 }

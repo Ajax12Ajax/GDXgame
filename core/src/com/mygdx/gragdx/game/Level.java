@@ -14,8 +14,7 @@ public class Level {
     public enum BLOCK_TYPE {
         EMPTY(0, 0, 0), // black
         ROCK(0, 255, 0), // green
-        PLAYER_SPAWNPOINT(255, 255, 255), // white
-        ITEM_POINT(255, 255, 0); // yellow
+        PLAYER_SPAWNPOINT(255, 255, 255);// white
 
         private int color;
 
@@ -32,11 +31,10 @@ public class Level {
         }
     }
 
-    public Test test;
+    public Player player;
 
     // objects
     public Array<Rock> rocks;
-    public Array<Point> points;
 
     // decoration
     public Clouds clouds;
@@ -53,11 +51,10 @@ public class Level {
 
     private void init(String filename) {
         // player character
-        test = null;
+        player = null;
 
         // objects
         rocks = new Array<Rock>();
-        points = new Array<Point>();
 
         // load image file that represents the level data
         Pixmap pixmap = new Pixmap(Gdx.files.internal(filename));
@@ -93,19 +90,10 @@ public class Level {
                 }
                 // player spawn point
                 else if (BLOCK_TYPE.PLAYER_SPAWNPOINT.sameColor(currentPixel)) {
-                    obj = new Test();
-                    offsetHeight = -3.0f;
-                    obj.position.set(pixelX, baseHeight * obj.dimension.y +
-                            offsetHeight);
-                    test = (Test)obj;
-                }
-                // gold coin
-                else if (BLOCK_TYPE.ITEM_POINT.sameColor(currentPixel)) {
-                    obj = new Point();
-                    offsetHeight = -1.5f;
-                    obj.position.set(pixelX, baseHeight * obj.dimension.y
-                            + offsetHeight);
-                    points.add((Point) obj);
+                    obj = new Player();
+                    offsetHeight = -4.0f;
+                    obj.position.set(pixelX, baseHeight * obj.dimension.y + offsetHeight);
+                    player = (Player)obj;
                 }
                 // unknown object/pixel color
                 else {
@@ -140,13 +128,10 @@ public class Level {
 
 
     public void update (float deltaTime) {
-        test.update(deltaTime);
+        player.update(deltaTime);
 
         for (Rock rock : rocks)
             rock.update(deltaTime);
-
-        for (Point goldCoin : points)
-            goldCoin.update(deltaTime);
 
         clouds.update(deltaTime);
     }
@@ -160,12 +145,8 @@ public class Level {
         for (Rock rock : rocks)
             rock.render(batch);
 
-        // Draw Gold Coins
-        for (Point goldCoin : points)
-            goldCoin.render(batch);
-
         // Draw Player Character
-        test.render(batch);
+        player.render(batch);
 
         // Draw Water Overlay
         waterOverlay.render(batch);

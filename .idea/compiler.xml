@@ -4,7 +4,7 @@
     <bytecodeTargetLevel target="1.7">
       <module name="core" target="1.7" />
       <module name="desktop" target="1.7" />
-      <module name="graGDX.android" target="1.8" />
+      <module name="graGDX.android" target="11" />
       <module name="ios" target="1.7" />
     </bytecodeTargetLevel>
   </component>

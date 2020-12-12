@@ -11,7 +11,7 @@ public class Constants {
     // GUI Height
     public static final float VIEWPORT_GUI_HEIGHT = 500.0f;
     //Location of Texture Atlas file
-    public static final String TEXTURE_ATLAS_OBJECTS = "images/test.atlas";
+    public static final String TEXTURE_ATLAS_OBJECTS = "images/gameTexture.atlas";
     // Location of image file for level 01
     public static final String LEVEL_01 = "levels/level-01.png";
     // Amount of extra lives at level start

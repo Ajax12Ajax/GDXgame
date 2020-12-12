@@ -39,7 +39,7 @@ public class Clouds extends AbstractGameObject {
     }
 
     private void init () {
-        dimension.set(3.0f, 1.5f);
+        dimension.set(2.4f, 1.1f);
 
         regClouds = new Array<TextureRegion>();
         regClouds.add(Assets.instance.levelDecoration.cloud01);

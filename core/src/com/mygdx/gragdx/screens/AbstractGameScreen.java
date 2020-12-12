@@ -1,15 +1,13 @@
 package com.mygdx.gragdx.screens;
 
-import com.badlogic.gdx.Game;
+import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.assets.AssetManager;
 import com.mygdx.gragdx.game.Assets;
 
 public abstract class AbstractGameScreen implements Screen {
-    private static final String TAG = AbstractGameScreen.class.getName();
-    protected Game game;
+    protected DirectedGame game;
 
-    public AbstractGameScreen(Game game) {
+    public AbstractGameScreen (DirectedGame game) {
         this.game = game;
     }
 
@@ -23,9 +21,9 @@ public abstract class AbstractGameScreen implements Screen {
 
     public abstract void pause();
 
-    public void resume() {
-        Assets.instance.init(new AssetManager());
-    }
+    public abstract InputProcessor getInputProcessor ();
+
+    public void resume() {}
 
     public void dispose() {
         Assets.instance.dispose();

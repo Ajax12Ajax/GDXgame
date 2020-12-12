@@ -38,8 +38,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1af4aba8-37f5-4fb2-a904-999ee3dd0114" name="Default Changelist" comment="GDXgame | Creation">
-      <change afterPath="$PROJECT_DIR$/android/assets/images/menuTexture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/build-attribution/androidGradlePluginAttributionData" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/images/gameTexture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/objects/Castle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/objects/Gym.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/objects/Smith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/objects/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/DirectedGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/transitins/ScreenTransition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/transitins/ScreenTransitionFade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -50,71 +56,117 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/android/graGDX.android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/android/graGDX.android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/desktop/graGDX.desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/desktop/graGDX.desktop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Gui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/guiTexture.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Gui.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/guiTexture.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Gui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/guiTexture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/images-ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/menuTexture.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/images-ui.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/menuTexture.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/images-ui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/islands.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/islands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/islands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/tools.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/toolsTexture.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/toolsTexture.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/toolsTexture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/default.fnt" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/defaultFont.fnt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/guiTexture.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/guiTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/guiTexture.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/guiTexture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/menuTexture.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/menuTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/menuTexture.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/menuTexture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/test.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/gameTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/toolsTexture.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/toolsTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/toolsTexture.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/toolsTexture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/levels/level-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/levels/level-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/app_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/app_classes/debug/classes.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOJqZRskyumd4OFjSwYRmpxWHlE=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/Gui.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/Gui.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/Gui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/images-ui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/islands.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/islands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/islands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/tools.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/tools.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/javac/debug/classes/com/mygdx/gragdx/AndroidLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/javac/debug/classes/com/mygdx/gragdx/AndroidLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/default.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/guiTexture.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/guiTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/guiTexture.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/guiTexture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/menuTexture.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/menuTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/menuTexture.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/menuTexture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/test.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/toolsTexture.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/toolsTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/toolsTexture.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/images/toolsTexture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/levels/level-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/out/levels/level-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/com/mygdx/gragdx/AndroidLauncher.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/com/mygdx/gragdx/AndroidLauncher.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build-attribution/androidGradlePluginAttributionData" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/.transforms/6ec4b5fbbd384017bade75fa797bfbca/core-1.0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/.transforms/6ec4b5fbbd384017bade75fa797bfbca/core-1.0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/MyGdxGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/MyGdxGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets$AssetFonts.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets$AssetFonts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets$AssetLevelDecoration.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets$AssetLevelDecoration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets$AssetRock.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets$AssetRock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets$AssetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets$Assetpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Assets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Level$BLOCK_TYPE.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Level$BLOCK_TYPE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/WorldRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Clouds.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Clouds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Mountains.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Mountains.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Rock.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Rock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test$JUMP_STATE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test$VIEW_DIRECTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/game/objects/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/MenuRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/objects/Rock.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/menu/objects/Rock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/AbstractGameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/AbstractGameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/GameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/MenuScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/PauseMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/PauseMenu$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/PauseMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/PauseMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/StartScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/StartScreen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/StartScreen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/StartScreen$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/StartScreen$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/StartScreen$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/StartScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/StartScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/screens/ToolsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/CameraHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/CameraHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/gragdx/util/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/MyGdxGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/MyGdxGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/Assets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/WorldRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Clouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Clouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/game/objects/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/MenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/MenuRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/MenuRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/objects/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/menu/objects/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/AbstractGameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/AbstractGameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/MenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/MenuScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/PauseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/PauseMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/ToolsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/ToolsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/StartScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/screens/StartScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/CameraHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/CameraHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/gragdx/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/Gui.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/Gui.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/Gui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/images-ui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/islands.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/islands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/islands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/tools.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/tools.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid12076.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid12948.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid18468.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid19896.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid25248.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid5052.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid5340.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mygdx/gragdx/desktop/DesktopLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mygdx/gragdx/desktop/DesktopLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/default.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/guiTexture.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/guiTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/guiTexture.png" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/guiTexture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/menuTexture.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/menuTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/menuTexture.png" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/menuTexture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/test.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/toolsTexture.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/toolsTexture.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/images/toolsTexture.json" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/images/toolsTexture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/levels/level-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/levels/level-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/com/mygdx/gragdx/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/com/mygdx/gragdx/desktop/DesktopLauncher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +236,9 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -197,12 +251,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/desktop" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../connectThePoints" />
     <property name="memory.settings.postsync.last.time.stamp" value="1598787589094" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -218,13 +272,16 @@
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets\images" />
       <recent name="C:\Users\janst\Documents\libGDXproject\graGDX\android\assets" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mygdx.gragdx.menu.objects" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="graGDX.android" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.desktop">
+  <component name="RunManager" selected="Android App.graGDX.android">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -261,7 +318,7 @@
       </method>
     </configuration>
     <configuration name="desktop" type="Application" factoryName="Application" show_console_on_std_err="true" show_console_on_std_out="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../Program Files/Java/jdk1.8.0_181" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.mygdx.gragdx.desktop.DesktopLauncher" />
       <module name="graGDX.desktop" />
@@ -580,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606604564862</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="GDXgame | Creation">
+      <created>1606725163210</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1606725163210</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -628,177 +692,5 @@
     <MESSAGE value="GDXgame | creation" />
     <MESSAGE value="GDXgame | Creation" />
     <option name="LAST_COMMIT_MESSAGE" value="GDXgame | Creation" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="267" y="379" key="#Inspections" timestamp="1605030103769">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="267" y="379" key="#Inspections/0.0.2560.1400@0.0.2560.1400" timestamp="1605030103769" />
-    <state x="240" y="341" key="#Plugins" timestamp="1603092186555">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="240" y="341" key="#Plugins/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603092186555" />
-    <state x="240" y="341" key="#Plugins/0.0.2560.1400@0.0.2560.1400" timestamp="1600886875038" />
-    <state x="723" y="521" key="#Project_Structure" timestamp="1600349352249">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="723" y="521" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1600349352249" />
-    <state x="1348" y="230" width="1089" height="1170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605648030628">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1348" y="230" width="1089" height="1170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605648030628" />
-    <state x="1472" y="444" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598878411458">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1472" y="444" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598878411458" />
-    <state x="717" y="510" key="#com.intellij.ide.util.MemberChooser" timestamp="1606394574142">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="717" y="510" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1606394574142" />
-    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599846836417">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1054" y="839" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599846836417" />
-    <state x="593" y="322" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604341239891">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="593" y="322" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1604341239891" />
-    <state x="982" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604339227451">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="982" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604339227451" />
-    <state x="620" y="441" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606606132591">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="620" y="441" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1606606132591" />
-    <state x="1011" y="447" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1601409005999">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1011" y="447" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601409005999" />
-    <state x="447" y="619" width="1308" height="741" key="AVDManager" timestamp="1606141709747">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="447" y="619" width="1308" height="741" key="AVDManager/0.0.2560.1400@0.0.2560.1400" timestamp="1606141709747" />
-    <state x="890" y="273" width="790" height="984" key="CommitChangelistDialog2" timestamp="1598786061126">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="890" y="273" width="790" height="984" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1598786061126" />
-    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog" timestamp="1604335699974">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604335699974" />
-    <state x="1560" y="489" key="EnvironmentVariablesDialog" timestamp="1598878281097">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1560" y="489" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598878281097" />
-    <state x="1066" y="450" key="FileChooserDialogImpl" timestamp="1603488256563">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1066" y="450" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1603488256563" />
-    <state width="2517" height="208" key="GridCell.Tab.0.bottom" timestamp="1606724529395">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="208" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1050.266.1050.1680@0.0.2560.1400" timestamp="1606724529395" />
-    <state width="1239" height="72" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1050.558.1050.1680@0.0.2560.1400" timestamp="1606686706681" />
-    <state width="2517" height="234" key="GridCell.Tab.0.bottom/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
-    <state width="1221" height="163" key="GridCell.Tab.0.bottom/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="153" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606609079055" />
-    <state width="2517" height="208" key="GridCell.Tab.0.center" timestamp="1606724529394">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="208" key="GridCell.Tab.0.center/0.0.2560.1400/-1050.266.1050.1680@0.0.2560.1400" timestamp="1606724529394" />
-    <state width="1239" height="72" key="GridCell.Tab.0.center/0.0.2560.1400/-1050.558.1050.1680@0.0.2560.1400" timestamp="1606686706680" />
-    <state width="2517" height="234" key="GridCell.Tab.0.center/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
-    <state width="1221" height="163" key="GridCell.Tab.0.center/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="153" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606609079054" />
-    <state width="2517" height="208" key="GridCell.Tab.0.left" timestamp="1606724529394">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="208" key="GridCell.Tab.0.left/0.0.2560.1400/-1050.266.1050.1680@0.0.2560.1400" timestamp="1606724529394" />
-    <state width="1239" height="72" key="GridCell.Tab.0.left/0.0.2560.1400/-1050.558.1050.1680@0.0.2560.1400" timestamp="1606686706680" />
-    <state width="2517" height="234" key="GridCell.Tab.0.left/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
-    <state width="1221" height="163" key="GridCell.Tab.0.left/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="153" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606609079054" />
-    <state width="2517" height="208" key="GridCell.Tab.0.right" timestamp="1606724529395">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="208" key="GridCell.Tab.0.right/0.0.2560.1400/-1050.266.1050.1680@0.0.2560.1400" timestamp="1606724529395" />
-    <state width="1239" height="72" key="GridCell.Tab.0.right/0.0.2560.1400/-1050.558.1050.1680@0.0.2560.1400" timestamp="1606686706681" />
-    <state width="2517" height="234" key="GridCell.Tab.0.right/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601052804843" />
-    <state width="1221" height="163" key="GridCell.Tab.0.right/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603104832140" />
-    <state width="2517" height="153" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606609079055" />
-    <state width="2517" height="255" key="GridCell.Tab.1.bottom" timestamp="1605603040777">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="255" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605603040777" />
-    <state width="2517" height="255" key="GridCell.Tab.1.center" timestamp="1605603040776">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="255" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605603040776" />
-    <state width="2517" height="255" key="GridCell.Tab.1.left" timestamp="1605603040776">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="255" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605603040776" />
-    <state width="2517" height="255" key="GridCell.Tab.1.right" timestamp="1605603040776">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="255" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605603040776" />
-    <state x="958" y="607" key="IDE.errors.dialog" timestamp="1603102063526">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="958" y="607" key="IDE.errors.dialog/0.0.2560.1400/3646.2160.1371.617@0.0.2560.1400" timestamp="1603102063526" />
-    <state x="314" y="402" key="RollbackChangesDialog" timestamp="1603125819692">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="314" y="402" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603125819692" />
-    <state x="201" y="350" key="SettingsEditor" timestamp="1606164413754">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="201" y="350" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606164413754" />
-    <state width="498" height="477" key="SwitcherDM" timestamp="1606205665476">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="498" height="477" key="SwitcherDM/0.0.2560.1400@0.0.2560.1400" timestamp="1606205665476" />
-    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2" timestamp="1606604578875">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="820" y="68" width="814" height="568" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606604578875" />
-    <state x="1494" y="451" key="caller.chooser.dialog" timestamp="1600888120099">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1494" y="451" key="caller.chooser.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600888120099" />
-    <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599846711970">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="788" y="758" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599846711970" />
-    <state x="1691" y="517" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606394968130">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1691" y="517" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1606394968130" />
-    <state x="829" y="436" width="902" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603555787987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="829" y="436" width="902" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400@0.0.2560.1400" timestamp="1603555787987" />
-    <state x="1273" y="0" width="1293" height="1407" key="dock-window-1" timestamp="1603908913826">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1273" y="0" width="1293" height="1407" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1603908913826" />
-    <state x="987" y="300" width="587" height="801" key="find.popup" timestamp="1599850061173">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="987" y="300" width="587" height="801" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1599850061173" />
-    <state x="342" y="458" key="refactoring.ChangeSignatureDialog" timestamp="1604346128782">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="342" y="458" key="refactoring.ChangeSignatureDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604346128782" />
-    <state x="938" y="331" width="672" height="677" key="run.anything.popup" timestamp="1606391729247">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="938" y="331" key="run.anything.popup/0.0.2560.1400/-392.2160.1371.617@0.0.2560.1400" timestamp="1601055893078" />
-    <state x="938" y="331" width="672" height="677" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1606391729247" />
-    <state x="1379" y="721" width="672" height="678" key="search.everywhere.popup" timestamp="1606391732342">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1379" y="721" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1606391732342" />
   </component>
 </project>

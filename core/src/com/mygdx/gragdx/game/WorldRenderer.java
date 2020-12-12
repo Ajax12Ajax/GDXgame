@@ -49,8 +49,6 @@ public class WorldRenderer implements Disposable {
         batch.setProjectionMatrix(cameraGUI.combined);
         batch.begin();
 
-        // draw collected gold coins icon + text (anchored to top left edge)
-        renderGuiScore(batch);
         // draw extra lives icon + text (anchored to top right edge)
         renderGuiExtraLive(batch);
         if (GamePreferences.instance.showFpsCounter)
@@ -61,18 +59,13 @@ public class WorldRenderer implements Disposable {
         batch.end();
     }
 
-    private void renderGuiScore (SpriteBatch batch) {
-        float x = -15;
-        float y = -25;
-        batch.draw(com.mygdx.gragdx.game.Assets.instance.point.pointa, x, y, 50, 50, 80, 80, 0.35f, -0.35f, 0);
-        com.mygdx.gragdx.game.Assets.instance.fonts.defaultBig.draw(batch, "" + worldController.score, x + 75, y + 42);    }
 
     private void renderGuiExtraLive (SpriteBatch batch) {
         float x = cameraGUI.viewportWidth - 20 - Constants.LIVES_START * 50;
         float y = -15;
         for (int i = 0; i < Constants.LIVES_START; i++) {
             if (worldController.lives <= i) batch.setColor(0.5f, 0.5f, 0.5f, 0.5f);
-            batch.draw(com.mygdx.gragdx.game.Assets.instance.test.head, x + i * 40, y, 50, 50, 70, 100, 0.35f, -0.35f, 0);
+            batch.draw(com.mygdx.gragdx.game.Assets.instance.player.head, x + i * 40, y, 50, 50, 70, 100, 0.35f, -0.35f, 0);
             batch.setColor(1, 1, 1, 1);
         }
     }

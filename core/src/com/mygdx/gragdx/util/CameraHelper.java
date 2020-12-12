@@ -5,9 +5,12 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
 import com.mygdx.gragdx.game.objects.AbstractGameObject;
+import com.mygdx.gragdx.menu.Level;
 
 public class CameraHelper {
     private static final String TAG = CameraHelper.class.getName();
+
+    public Level level;
 
     private final float MAX_ZOOM_IN = 0.25f;
     private final float MAX_ZOOM_OUT = 10.0f;
@@ -19,21 +22,9 @@ public class CameraHelper {
     private final float FOLLOW_SPEED = 4.0f;
 
     public CameraHelper() {
+        level = new Level(Constants.LEVEL_01);
         position = new Vector2();
         zoom = 1.0f;
-    }
-
-    public void update(float deltaTime, float minX, float maxX) {
-        if (!hasTarget()) return;
-        position.x = target.position.x + target.origin.x;
-        position.y = target.position.y + target.origin.y;
-
-        position.lerp(target.position, FOLLOW_SPEED * deltaTime);
-        // Prevent camera from moving down too far
-        position.y = Math.max(-1f, position.y);
-        position.x = Math.min(position.x, minX);
-        position.x = Math.max(position.x, maxX);
-
     }
 
     public void setPosition(float x, float y) {

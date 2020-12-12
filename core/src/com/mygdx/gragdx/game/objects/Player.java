@@ -6,9 +6,9 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.mygdx.gragdx.game.Assets;
 
-public class Test extends AbstractGameObject {
+public class Player extends AbstractGameObject {
 
-    public static final String TAG = Test.class.getName();
+    public static final String TAG = Player.class.getName();
 
     private final float JUMP_TIME_MAX = 0.3f;
     private final float JUMP_TIME_MIN = 0.1f;
@@ -29,15 +29,15 @@ public class Test extends AbstractGameObject {
     public float timeJumping;
     public JUMP_STATE jumpState;
 
-    public Test() {
+    public Player() {
         init();
     }
 
 
     public void init() {
-        dimension.set(0.7f, 1);
+        dimension.set(0.6f, 1f);
 
-        regHead = Assets.instance.test.head;
+        regHead = Assets.instance.player.head;
 
         // Center image on game object
         origin.set(dimension.x / 2, dimension.y / 2);

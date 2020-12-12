@@ -19,12 +19,9 @@ public class MenuRenderer implements Disposable {
     private SpriteBatch batch;
     private final MenuController worldController;
 
-    public Level level;
-
 
     public MenuRenderer(MenuController worldController) {
         this.worldController = worldController;
-        level = new Level(Constants.LEVEL_01);
         init();
     }
 
