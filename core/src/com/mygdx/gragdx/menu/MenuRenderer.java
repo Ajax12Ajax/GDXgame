@@ -7,7 +7,6 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Disposable;
 import com.mygdx.gragdx.screens.ToolsMenu;
 import com.mygdx.gragdx.util.Constants;
-import com.mygdx.gragdx.util.GamePreferences;
 
 public class MenuRenderer implements Disposable {
     private static final String TAG = MenuRenderer.class.getName();
@@ -58,7 +57,7 @@ public class MenuRenderer implements Disposable {
         batch.setProjectionMatrix(cameraGUI.combined);
         batch.begin();
 
-        if (GamePreferences.instance.showFpsCounter) renderGuiFpsCounter(batch);
+        renderGuiFpsCounter(batch);
 
         batch.end();
     }

@@ -4,6 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.assets.AssetDescriptor;
 import com.badlogic.gdx.assets.AssetErrorListener;
 import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.Texture.TextureFilter;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -29,11 +30,20 @@ public class Assets implements Disposable, AssetErrorListener {
     public AssetWizard wizard;
     public AssetLevelDecoration levelDecoration;
 
+    public AssetMusic music;
+
 
     // singleton: prevent instantiation from other classes
     private Assets() {
     }
 
+
+    public class AssetMusic {
+        public final Music song01;
+        public AssetMusic (AssetManager am) {
+            song01 = am.get("music/music.mp3", Music.class);
+        }
+    }
 
     public class AssetFonts {
         public final BitmapFont defaultSmall;
@@ -133,6 +143,8 @@ public class Assets implements Disposable, AssetErrorListener {
         assetManager.setErrorListener(this);
         // load texture atlas
         assetManager.load(Constants.TEXTURE_ATLAS_OBJECTS, TextureAtlas.class);
+        // load music
+        assetManager.load("music/music.mp3", Music.class);
         // start loading assets and wait until finished
         assetManager.finishLoading();
 
@@ -157,6 +169,7 @@ public class Assets implements Disposable, AssetErrorListener {
         gym = new AssetGym(atlas);
         wizard = new AssetWizard(atlas);
         levelDecoration = new AssetLevelDecoration(atlas);
+        music = new AssetMusic(assetManager);
     }
 
 

@@ -18,7 +18,9 @@ import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.FillViewport;
 import com.mygdx.gragdx.screens.transitins.ScreenTransition;
 import com.mygdx.gragdx.screens.transitins.ScreenTransitionFade;
+import com.mygdx.gragdx.util.AudioManager;
 import com.mygdx.gragdx.util.Constants;
+import com.mygdx.gragdx.util.Preferences;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -49,6 +51,10 @@ public class StartScreen extends AbstractGameScreen {
         setupBackground();
         setupTitle(0);
         setupButtons(0);
+
+        Preferences prefs = Preferences.instance;
+        prefs.save();
+        AudioManager.instance.onSettingsUpdated();
     }
 
 

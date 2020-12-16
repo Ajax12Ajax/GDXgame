@@ -13,7 +13,7 @@ import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.mygdx.gragdx.menu.MenuController;
 import com.mygdx.gragdx.menu.MenuRenderer;
 import com.mygdx.gragdx.util.Constants;
-import com.mygdx.gragdx.util.GamePreferences;
+import com.mygdx.gragdx.util.Preferences;
 
 public class MenuScreen extends AbstractGameScreen {
     private static final String TAG = MenuScreen.class.getName();
@@ -74,7 +74,7 @@ public class MenuScreen extends AbstractGameScreen {
                 Gdx.files.internal(Constants.SKIN_HUD_UI),
                 new TextureAtlas(Constants.TEXTURE_ATLAS_HUD_UI));
 
-        GamePreferences.instance.load();
+        Preferences.instance.load();
         worldController = new MenuController(game);
         worldRenderer = new MenuRenderer(worldController);
         Gdx.input.setCatchKey(Input.Keys.BACK, true);
